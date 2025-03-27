@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Montserrat" !important;
+  color: #0a0a0a;
+  background: #fff;
+  font-size: 14px;
+  margin: 0;
+  overflow-x: hidden !important;
+  padding: 0;
+}
+
+/* .font {
+  font-family: "Marcellus SC" !important;
+} */
+
+.font-marcellusSC {
+  font-family: "Marcellus SC" !important;
+}
+
+.font-marcellus {
+  font-family: "Marcellus" !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
