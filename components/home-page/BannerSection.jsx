@@ -21,7 +21,7 @@ export default function BannerSection() {
             Make your awesome business idea a reality with PartnerGem, High-
             performing tech solutions that drives your business forward.
           </p>
-          <button className="rounded-lg mt-10 text-[#FFFFFF] px-7 py-2 text-[20px] font-[400] bg-gradient-to-r from-[#C28383] to-[#7C2CC2] cursor-pointer">
+          <button className="rounded-lg mt-10 text-[#FFFFFF] px-7 py-2 text-[20px] font-[400] bg-gradient-to-r from-[#C28383] to-[#7C2CC2] cursor-pointer font-Marcellus-SC">
             Get Started
           </button>
         </div>

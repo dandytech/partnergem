@@ -9,10 +9,10 @@ export default function WhatWeDo() {
       <div className="px-20">
         <p className="flex gap-2 justify-center pt-10 font-bold ">
           {" "}
-          <span className="text-[48px] font-[700 bg-gradient-to-r from-[#0697DF] to-[#0697DF] text-transparent bg-clip-text">
+          <span className="text-[48px] font-[700] bg-gradient-to-r from-[#0697DF] to-[#0697DF] text-transparent bg-clip-text">
             What
           </span>
-          <span className=" text-[48px] font-[700 bg-gradient-to-r from-[#0697DF] via-[#000A1C] to-[#000A1C] text-transparent bg-clip-text">
+          <span className=" text-[48px] font-[700] bg-gradient-to-r from-[#0697DF] via-[#000A1C] to-[#000A1C] text-transparent bg-clip-text">
             we do
           </span>
         </p>

@@ -27,7 +27,7 @@ export default function Solutions() {
             <p className="font-[700] text-[55px] text-white">
               Generative AI Solutions
             </p>
-            <p className="text-white font-[400] font-marcellus text-[20px] px-28 mt-3">
+            <p className="text-white font-[400] font-Marcellus text-[20px] px-28 mt-3">
               We empower businesses and people to leverage AI-driven solutions
               for content creation, automation, and enhanced decision-making.
             </p>
@@ -42,7 +42,7 @@ export default function Solutions() {
       </div>
 
 
-      <p className="py-20 px-5 font-montserrat">TESTING</p>
+    
     </div>
   );
 }

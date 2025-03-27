@@ -10,12 +10,16 @@ export default function AfricaMap() {
         </p>
         <p className="flex items-center gap-5 mt-10">
           <span className="w-[86px] h-[33px] rounded-xl bg-gradient-to-r from-[#2498E5] to-[#00B78D] "></span>
-          <span className="font-[400] text-[20px]">Opened location</span>
+          <span className="font-[400] text-[20px] font-Marcellus-SC">
+            Opened location
+          </span>
         </p>
 
         <p className="flex items-center gap-5 mt-5">
           <span className="w-[86px] h-[33px] rounded-xl bg-gradient-to-r from-[#CCEBFF] to-[#12FFC9]"></span>
-          <span className="font-[400] text-[20px]">Opening soon</span>
+          <span className="font-[400] text-[20px] font-Marcellus-SC">
+            Opening soon
+          </span>
         </p>
       </div>
       <div className="w-[50%]">

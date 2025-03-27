@@ -13,20 +13,18 @@ export default function Header({ src, textColor }) {
           </NavLink>
         </div>
 
-        <div className={`font-[400] text-[20px] ${textColor}`}>
-          <ul className="flex justify-between gap-10  mt-10 uppercase">
+        <div
+          className={`font-[400] text-[20px] ${textColor} font-Marcellus-SC`}
+        >
+          <ul className="flex justify-between gap-10  mt-10 ">
             <li>
-              <NavLink to="/" className="font-marcellusSC">
-                Home
-              </NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
               <NavLink to="solutions">Solutions</NavLink>
             </li>
             <li>
-              <NavLink to="/" className="font-marcellusSC">
-                Upskilling
-              </NavLink>
+              <NavLink to="/">Upskilling</NavLink>
             </li>
             <li>
               <NavLink to="/">Blog</NavLink>

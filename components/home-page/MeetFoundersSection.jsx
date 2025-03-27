@@ -7,7 +7,7 @@ export default function MeetFoundersSection() {
         <p className="font-[700] text-[48px] pb-3 text-[#FFFFFF]">
           Meet the founders
         </p>
-        <p className="font-[400] font-marcellus text-[20px] text-[#FFFFFF]">
+        <p className="font-[400] font-Marcellus text-[20px] text-[#FFFFFF]">
           PartnerGem was created when 2 visionary tech enthusiasts met and
           realised they shared the same passion for proffering tech solutions.
           This collaboration inspired their journey to bridge the gap between

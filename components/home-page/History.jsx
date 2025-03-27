@@ -92,9 +92,9 @@ export default function History() {
             {" "}
             {/* ✅ Force transparent background */}
             <div className="flex flex-col gap-3">
-              <p className="font-[600] text-[32px]">{item.year}</p>
-              <p className="font-[400] text-[32px]">{item.title}</p>
-              <p className="font-[400] text-[20px] font-marcellus pr-5">
+              <p className="font-[600] text-[32px] font-Syne">{item.year}</p>
+              <p className="font-[400] text-[32px] ">{item.title}</p>
+              <p className="font-[400] text-[20px] font-Marcellus pr-5">
                 {item.history}
               </p>
             </div>

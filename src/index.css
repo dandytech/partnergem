@@ -10,16 +10,16 @@ body {
   padding: 0;
 }
 
-/* .font {
-  font-family: "Marcellus SC" !important;
-} */
-
-.font-marcellusSC {
+.font-Marcellus-SC {
   font-family: "Marcellus SC" !important;
 }
 
-.font-marcellus {
+.font-Marcellus {
   font-family: "Marcellus" !important;
+}
+
+.font-Syne {
+  font-family: "Syne" !important;
 }
 
 .swiper {

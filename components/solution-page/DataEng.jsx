@@ -17,7 +17,7 @@ export default function DataEng() {
           <p className="flex items-center pt-40 font-[700] text-[55px] bg-gradient-to-r from-[#0697DF] to-[#000A1C] bg-clip-text text-transparent w-[40%]">
             Data Engineering Solutions
           </p>
-          <p className="text-[#5F5F5F] text-[20px] font-[400] mt-10 font-marcellus w-[40%]">
+          <p className="text-[#5F5F5F] text-[20px] font-[400] mt-10 font-Marcellus w-[40%]">
             Our data engineering strategy involves aligning your data goals with
             business objectives, selecting the right architecture and tools and
             ensuring data quality and governance.
@@ -48,7 +48,7 @@ export default function DataEng() {
               <p className="font-[700] text-[28px] text-white">
                 Data Engineering Tools
               </p>
-              <p className="text-[20px] font-[400] font-marcellus text-white mt-5">
+              <p className="text-[20px] font-[400] font-Marcellus text-white mt-5">
                 We create data engineering tools and services for big data
                 processing, real-time analytics and business intelligence. These
                 include Azure data bricks, Microsoft fabric and lake house
