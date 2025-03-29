@@ -9,7 +9,9 @@ body {
   overflow-x: hidden !important;
   padding: 0;
 }
-
+button {
+  cursor: pointer !important;
+}
 .font-Marcellus-SC {
   font-family: "Marcellus SC" !important;
 }

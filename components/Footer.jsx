@@ -5,12 +5,12 @@ import Button from "./Button";
 export default function Footer() {
   return (
     <div>
-      <div className="pb-20 bg-[url('/assets/images/bgimg7.png')] bg-no-repeat bg-cover py-20">
-        <div className="w-[35%] m-auto">
-          <p className="font-[700] text-[48px] text-white">
+      <div className="lg:pb-20 bg-[url('/assets/images/bgimg7.png')] bg-no-repeat bg-cover lg:py-20 md:py-10 px-3 md:px-5">
+        <div className="lg:w-[35%] m-auto">
+          <p className="font-[700] lg:text-[48px] text-[30px] md:text-[34px] text-white">
             Let us know about your new venture
           </p>
-          <p className="font-[400] text-[20px] py-10 text-white font-marcellus">
+          <p className="font-[400] text-[20px] md:py-10 pt-10 pb-3 md:pt-0 text-white font-marcellus">
             Tell us about your company.
           </p>
           <form className="flex flex-col gap-5 ">
@@ -32,13 +32,13 @@ export default function Footer() {
           </form>
         </div>
 
-        <div className="px-20 py-10 mt-20">
+        <div className="lg:px-20 px-3 md:px-5 py-10 lg:mt-20 mt-10">
           <p className="font-[700] text-[20px] text-white">Privacy Policy</p>
 
           <p className="font-[700] text-[20px] text-white py-5">
             Terms of Service
           </p>
-          <p className="flex justify-between text-white gap-10 font-[700] text-[20px]">
+          <p className="lg:flex justify-between text-white gap-10 font-[700] md:text-[20px] text-[18px] space-y-5 lg:space-y-0">
             <div>© PARTNERGEM 2024 ALL RIGHTS RESERVED</div>
             <div className="flex gap-3">
               <button className="">Linkedin</button>

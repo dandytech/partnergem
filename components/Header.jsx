@@ -12,7 +12,7 @@ export default function Header({ src, textColor }) {
   };
   return (
     <div className="absolute w-full py-3">
-      <div className="flex justify-between items-center lg:px-20 md:px-5 px-3 w-[80%] ">
+      <div className="flex justify-between items-center lg:px-20 md:px-5 px-3 lg:w-[80%] ">
         <div className="">
           <NavLink to="/">
             {" "}
@@ -38,7 +38,7 @@ export default function Header({ src, textColor }) {
             </li>
           </ul>
         </div>
-        <div className="md:hidden text-xl">
+        <div className="md:hidden text-xl  p-2 rounded-full shadow:md">
           <button onClick={handleMenu}>
             {" "}
             <GiHamburgerMenu />

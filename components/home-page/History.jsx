@@ -70,30 +70,38 @@ const histories = [
 
 export default function History() {
   return (
-    <div className="pb-20 bg-[url('/assets/images/bgimg6.png')] bg-no-repeat bg-cover pt-20 px-20 pb-40">
-      <p className="font-[700] text-[48px] text-white pb-20 pt-10">
+    <div className="lg:pb-20 bg-[url('/assets/images/bgimg6.png')] bg-no-repeat bg-cover lg:pt-20 md:pt-10 lg:px-20 md:px-5 md:pb-14 px-3 lg:pb-40">
+      <p className="font-[700] lg:text-[48px] text-[24px] md:text-[34px] text-white pb-20 pt-10">
         Our History
       </p>
       <Swiper
         spaceBetween={30}
-        slidesPerView={4} // ✅ Show multiple slides at once for smooth effect
+        slidesPerView={4} // Default for larger screens
         autoplay={{ delay: 0, disableOnInteraction: false }}
-        speed={3000} // ✅ Controls smooth continuous movement
+        speed={3000}
         loop={true}
-        freeMode={true} // ✅ Enables continuous smooth scrolling
+        freeMode={true}
         modules={[Autoplay]}
         className="mySwiper"
+        breakpoints={{
+          320: { slidesPerView: 1 }, // Mobile screens (smaller screens)
+          640: { slidesPerView: 2 }, // Tablets
+          1024: { slidesPerView: 3 }, // Small laptops
+          1280: { slidesPerView: 4 }, // Large screens
+        }}
       >
         {histories.map((item) => (
           <SwiperSlide
             key={item.id}
             className="!bg-transparent text-white border-l-4 px-5 pb-10 border-[#7A06DF]"
           >
-            {" "}
-            {/* ✅ Force transparent background */}
             <div className="flex flex-col gap-3">
-              <p className="font-[600] text-[32px] font-Syne">{item.year}</p>
-              <p className="font-[400] text-[32px] ">{item.title}</p>
+              <p className="font-[600] md:text-[32px] text-[24px] font-Syne">
+                {item.year}
+              </p>
+              <p className="font-[400] text-[32px]md:text-[32px] text-[24px] ">
+                {item.title}
+              </p>
               <p className="font-[400] text-[20px] font-Marcellus pr-5">
                 {item.history}
               </p>
