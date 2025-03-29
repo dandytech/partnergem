@@ -15,20 +15,14 @@ function App() {
       <div>
         <BrowserRouter>
           <Routes>
-            {/* main route */}
             <Route element={<Layout />}>
               <Route index element={<Home />} />
-
               <Route path="home" element={<Home />} />
               <Route path="solutions" element={<Solutions />} />
               <Route path="upskilling" element={<Upskilling />} />
-
               <Route path="upskill-details" element={<UpskillDetails />} />
-
               <Route path="blog-details" element={<BlogDetails />} />
-
               <Route path="blog" element={<Blog />} />
-
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>
