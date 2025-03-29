@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 
 import { NavLink } from "react-router-dom";
-import { GiHamburgerMenu } from "react-icons/gi";
+
 import logo3 from "/assets/images/logo3.png";
+import { RiMenu5Fill } from "react-icons/ri";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Header({ src, textColor }) {
   const [show, setShow] = useState(true);
@@ -38,9 +40,8 @@ export default function Header({ src, textColor }) {
             </li>
           </ul>
         </div>
-        <div className="md:hidden text-xl border-white px-2 py-1 rounded-2xl bg-white shadow:md">
+        <div className="md:hidden font-bold bg-white text-3xl pt-1 rounded-full px-2 shadow:4xl ">
           <button onClick={handleMenu}>
-            {" "}
             <GiHamburgerMenu />
           </button>
         </div>
