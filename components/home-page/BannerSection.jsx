@@ -1,5 +1,7 @@
 import React from "react";
 import box from "/assets/images/box.png";
+import { motion } from "framer-motion";
+
 export default function BannerSection() {
   return (
     <div className="pb-20 bg-[url('/assets/images/bgimg1.png')] bg-cover bg-center bg-no-repeat">
@@ -28,7 +30,13 @@ export default function BannerSection() {
           </button>
         </div>
         <div className="lg:w-[30%] md:w-[50%]">
-          <img src={box} alt="box" width={100} className="w-full" />
+          <motion.img
+            src={box}
+            alt="Rotating"
+            className="w-full"
+            animate={{ rotate: 360 }}
+            transition={{ repeat: Infinity, duration: 5, ease: "linear" }}
+          />
         </div>
       </div>
     </div>
