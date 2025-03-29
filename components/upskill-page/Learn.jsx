@@ -87,7 +87,7 @@ export default function Learn() {
                   {" "}
                   <NavLink to="/upskill-details">
                     <Button>
-                      <span className="font-[400] font-Marcellus-SC lg:text-[20px] md:text-[18px] px-5 cursor-pointer">
+                      <span className="font-[400] font-Marcellus-SC lg:text-[20px] md:text-[18px] text-[14px] md:px-5 px-3 cursor-pointer">
                         Enroll Now
                       </span>
                     </Button>
@@ -115,10 +115,10 @@ export default function Learn() {
                   {course.title}
                 </div>
 
-                <div className="lg:w-[40%] px-10 lg:px-0 w-full m-auto mt-3">
+                <div className="lg:w-[40%] w-[50%] md:px-10 lg:px-0  m-auto mt-3">
                   <NavLink to="/upskill-details">
                     <Button>
-                      <span className="font-[400] font-Marcellus-SC lg:text-[20px] text-[18px] cursor-pointer">
+                      <span className="font-[400] font-Marcellus-SC lg:text-[20px] md:text-[18px] text-[14px] md:px-5 px-3 cursor-pointer">
                         Enroll Now
                       </span>
                     </Button>
