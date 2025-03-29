@@ -9,22 +9,22 @@ import Header from "../Header";
 
 export default function DataEng() {
   return (
-    <div className="pb-40 bg-[url('/assets/images/bgimg8.png')] bg-cover bg-center bg-no-repeat ">
+    <div className="lg:pb-40 bg-[url('/assets/images/bgimg8.png')] bg-cover bg-center bg-no-repeat ">
       <Header src={logo3} textColor="text-black" />
 
-      <div className="px-20">
+      <div className="lg:px-20 md:px-5 px-3">
         <div>
-          <p className="flex items-center pt-40 font-[700] text-[55px] bg-gradient-to-r from-[#0697DF] to-[#000A1C] bg-clip-text text-transparent w-[40%]">
+          <p className="flex items-center md:pt-40 pt-34 font-[700] lg:text-[55px] md:text-[34px] text-[30px] bg-gradient-to-r from-[#0697DF] to-[#000A1C] bg-clip-text text-transparent lg:w-[40%]">
             Data Engineering Solutions
           </p>
-          <p className="text-[#5F5F5F] text-[20px] font-[400] mt-10 font-Marcellus w-[40%]">
+          <p className="text-[#5F5F5F] md:text-[20px] text-[18px]  font-[400] lg:mt-10 md:mt-5 mt-3 font-Marcellus lg:w-[40%]">
             Our data engineering strategy involves aligning your data goals with
             business objectives, selecting the right architecture and tools and
             ensuring data quality and governance.
           </p>
         </div>
 
-        <div className="flex justify-between items-start ml-40 gap-10 pt-20">
+        <div className="lg:flex justify-between items-start lg:ml-40 lg:gap-10 lg:pt-20 ">
           {[
             { img: dataeng1, text: "Building Scalable Data Pipelines" },
             { img: dataeng2, text: "Implementing Security Measures" },
@@ -32,20 +32,20 @@ export default function DataEng() {
           ].map((item, index) => (
             <div
               key={index}
-              className="flex flex-col gap-5 bg-[#EAF0F3] pt-10 h-[500px] justify-between rounded-lg"
+              className="flex flex-col gap-5  mt-5 lg:mt-10 bg-[#EAF0F3] pt-10 lg:h-[500px] justify-between rounded-lg"
             >
-              <p className="text-[#000000] text-center pb-5 text-[28px] font-[700] px-20">
+              <p className="text-[#000000] text-center pb-5 md:text-[28px] text-[20px] font-[700] lg:px-20 px-10">
                 {item.text}
               </p>
-              <img alt="img" src={item.img} className="w-full  object-cover" />
+              <img alt="img" src={item.img} className="w-full   object-cover" />
             </div>
           ))}
         </div>
 
-        <div className="pb-20 bg-[url('/assets/images/bgimg9.png')] bg-cover bg-center bg-no-repeat mr-40 p-20 mt-24">
-          <div className="flex justify-between items-center ">
-            <div className="w-[50%]">
-              <p className="font-[700] text-[28px] text-white">
+        <div className="lg:pb-20 pb-10 bg-[url('/assets/images/bgimg9.png')] bg-cover bg-center bg-no-repeat lg:mr-40 px-3 md:px-5 pt-10 md:pt-10 lg:p-20 lg:mt-24 mt-10">
+          <div className="md:flex justify-between items-center space-y-5 md:space-y-0 ">
+            <div className="md:w-[50%]">
+              <p className="font-[700] md:text-[28px] text-[24px] text-white">
                 Data Engineering Tools
               </p>
               <p className="text-[20px] font-[400] font-Marcellus text-white mt-5">
@@ -55,7 +55,7 @@ export default function DataEng() {
                 architecture.
               </p>
             </div>
-            <div className="w-[50%]">
+            <div className="md:w-[50%]">
               <img src={box2} width={100} alt="box" className="w-full" />
             </div>
           </div>

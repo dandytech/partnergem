@@ -4,19 +4,19 @@ import InputBox from "./InputBox";
 export default function Footer2() {
   return (
     <>
-      <div className="pb-20 bg-[url('/assets/images/bgimg16.png')] bg-no-repeat bg-cover py-20 px-20">
-        <div className="flex items-center justify-between gap-20 w-[90%]">
-          <div className="w-[40%]">
-            <p className="font-[700] text-[55px] text-white">
+      <div className="lg:pb-10 md:pb-5 bg-[url('/assets/images/bgimg16.png')] bg-no-repeat bg-cover lg:py-20 md:py-10 py-5 lg:px-20 px-3 md:px-5">
+        <div className="md:flex items-center justify-between gap-20 md:w-[90%]">
+          <div className="md:w-[40%]">
+            <p className="font-[700 text-[30px] md:text-[34px]  lg:text-[55px] text-white pb-3 md:pb-0">
               Speak to an Advisor
             </p>
-            <p className="font-Marcellus font-[400] text-[22px] text-white">
+            <p className="font-Marcellus font-[400] text-lg:[22px] text-[18px] text-white">
               Our admissions department is here to help with admissions
               questions, course recommendations and guide you to the areas you
               need to improve to reach your goals.
             </p>
           </div>
-          <div className="w-[60%]">
+          <div className="md:w-[60%] mt-5 md:mt-0">
             <form className="flex flex-col gap-5">
               <InputBox placeholder="NAME" type="text" name="name" />
               <InputBox placeholder="Email" type="text" name="name" />
@@ -34,13 +34,13 @@ export default function Footer2() {
           </div>
         </div>
 
-        <div className="py-10 mt-20">
-          <p className="font-[700] text-[20px] text-white">Privacy Policy</p>
+        <div className=" px-3 md:px-5 py-5 lg:mt-20 mt-10">
+          <p className="font-[700] md:text-[20px] text-white text-[14px]">Privacy Policy</p>
 
-          <p className="font-[700] text-[20px] text-white py-5">
+          <p className="font-[700] md:text-[20px] text-[14px] text-white py-5">
             Terms of Service
           </p>
-          <p className="flex justify-between text-white gap-10 font-[700] text-[20px]">
+          <p className="lg:flex justify-between text-white gap-10 font-[700] md:text-[20px] lg:text-[48px] space-y-5 lg:space-y-0 text-[14px]">
             <div>© PARTNERGEM 2024 ALL RIGHTS RESERVED</div>
             <div className="flex gap-3">
               <button className="">Linkedin</button>

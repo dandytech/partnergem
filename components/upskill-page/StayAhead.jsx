@@ -6,24 +6,24 @@ import Button from "../Button";
 export default function BannerSection() {
   return (
     <div>
-      <div className="px-20 bg-[#F1FAFF]">
-        <p className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] text-[55px] w-[70%] text-center m-auto pt-40 pb-5">
+      <div className="lg:px-20 px-3 md:px-5 bg-[#F1FAFF]">
+        <p className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] lg:text-[55px] md:txt-[34px] text-[30px] md:w-[70%] text-center m-auto lg:pt-40 pt-34 pb-5">
           Stay Ahead of the Curve with the Latest Generative AI Courses
         </p>
         <div className="pb-40 bg-[url('/assets/images/bgimg12.png')] bg-cover bg-center bg-no-repeat h-[846px]"></div>
       </div>
 
-      <div className="flex items-center justify-between gap-10 px-20 py-20">
-        <div className="flex flex-col gap-5 w-[35%]">
-          <p className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] text-[55px]">
+      <div className="md:flex items-center justify-between lg:gap-10 lg:px-20 px-3 md:text-5 lg:py-20 py-10">
+        <div className="lg:flex flex-col gap-5 lg:w-[35%] md:w-full">
+          <p className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] lg:text-[55px] text-[30px] md:text-[34px]">
             Align Yourself With The Latest AI Trends
           </p>
-          <p className="text-[#000A1C] font-Marcellus font-[400] text-[24px]">
+          <p className="text-[#000A1C] font-Marcellus font-[400] md:text-[24px] text-[20px]">
             PartnerGem courses offer a unique, immersive learning experience to
             help you master your craft, stay current with evolving trends, and
             expand your horizons.
           </p>
-          <p className="mt-5 w-[30%] font-Marcellus-SC font-[400] text-[20px]">
+          <p className="mt-5 lg:w-[30%] font-Marcellus-SC font-[400] text-[20px]">
             {" "}
             <Button>View Courses</Button>
           </p>

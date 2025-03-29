@@ -6,10 +6,10 @@ import cloud4 from "/assets/icons/cloud4.png";
 
 export default function CloudSolutions() {
   return (
-    <div className="pb-40 bg-[url('/assets/images/bgimg11.png')] bg-cover bg-center bg-no-repeat ">
-      <div className="flex gap-10 justify-between px-20 pt-20">
-        <div className="w-[30%]">
-          <p className="bg-gradient-to-r from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] text-[55px] ">
+    <div className="lg:pb-40 bg-[url('/assets/images/bgimg11.png')] bg-cover bg-center bg-no-repeat ">
+      <div className="lg:flex gap-10 justify-between px-3 md:px-5 lg:px-20 lg:pt-20 md:pt-10 pt-5">
+        <div className="lg:w-[30%]">
+          <p className="bg-gradient-to-r from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] lg:text-[55px] md:text-[34px] text-[30px] pt-5 ">
             Cloud Solutions
           </p>
           <p className="text-[#5F5F5F] font-[400] text-[20px] font-Marcellus">
@@ -18,7 +18,7 @@ export default function CloudSolutions() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 py-10 px-5 gap-5 pt-40">
+        <div className="md:grid grid-cols-2 py-10 space-y-5 md:space-y-5 lg:px-5 gap-5 lg:pt-40">
           <div className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl">
             <p>
               {" "}

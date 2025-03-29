@@ -54,40 +54,40 @@ const morecourses = [
 export default function Learn() {
   return (
     <>
-      <div className="px-20 pb-10">
-        <div className="flex flex-col gap-5 w-[27%] m-auto">
-          <p className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] text-[55px] text-center">
+      <div className="lg:px-20 px-3 md:px-5 pb-10 md:mt-10 lg:mt-0">
+        <div className="flex flex-col lg:gap-5 lg:w-[27%] m-auto">
+          <p className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] lg:text-[55px] md:text-[34px] text-[30px] text-center">
             Learn From The Best
           </p>
-          <p className="text-[#000A1C] font-Marcellus font-[400] text-[24px] text-center">
+          <p className="text-[#000A1C] font-Marcellus font-[400] lg:text-[24px] text-[18px] md:text-[20px] text-center">
             {" "}
             Take a look at the incredible classes being taught by our
             instructors
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-5 py-20">
+        <div className="md:grid grid-cols-2 gap-5 lg:py-20 md:py-10 py-5">
           {courses.map((course) => (
             <div
               key={course.id}
-              className="flex  flex-col gap-5 shadow-md border border-gray-100 pb-5 rounded-xl"
+              className="flex  flex-col gap-5 shadow-md border border-gray-100 pb-5 mt-5 md:mt-0 rounded-xl"
             >
               <div>
                 <img src={course.pic} alt="image" className="w-full" />
               </div>
-              <div className="font-[400] font-Marcellus-SC text-[28px] px-20">
+              <div className="font-[400] font-Marcellus-SC lg:text-[28px] text-[18px] md:text-[20px] lg:px-20 md:px-5 px-3">
                 {course.title}
               </div>
 
               <div className="flex justify-between items-center px-10 gap-5">
-                <div className="font-Marcellus font-[400] text-[20px]">
+                <div className="font-Marcellus font-[400] lg:text-[20px] text-[16px] md:text-[18px]">
                   {course.author}
                 </div>
                 <div>
                   {" "}
                   <NavLink to="/upskill-details">
                     <Button>
-                      <span className="font-[400] font-Marcellus-SC text-[20px] px-5 cursor-pointer">
+                      <span className="font-[400] font-Marcellus-SC lg:text-[20px] md:text-[18px] px-5 cursor-pointer">
                         Enroll Now
                       </span>
                     </Button>
@@ -99,10 +99,10 @@ export default function Learn() {
         </div>
 
         <div>
-          <p className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] text-[32px] mb-5 ">
+          <p className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] md:text-[32px] text-[24px] mt-5 mb-5 ">
             More Courses
           </p>
-          <div className="grid grid-cols-3 gap-5 pb-10">
+          <div className="md:grid grid-cols-3 gap-5 pb-10">
             {morecourses.map((course) => (
               <div
                 key={course.id}
@@ -111,14 +111,14 @@ export default function Learn() {
                 <div className="flex items-center justify-center">
                   <img src={course.pic} width={100} className="w-full" />
                 </div>
-                <div className="font-[400] font-Marcellus-SC text-[28px] text-center px-5">
+                <div className="font-[400] font-Marcellus-SC lg:text-[28px] text-[18px] text-center px-5">
                   {course.title}
                 </div>
 
-                <div className="w-[40%] m-auto mt-3">
+                <div className="lg:w-[40%] px-10 lg:px-0 w-full m-auto mt-3">
                   <NavLink to="/upskill-details">
                     <Button>
-                      <span className="font-[400] font-Marcellus-SC text-[20px] cursor-pointer">
+                      <span className="font-[400] font-Marcellus-SC lg:text-[20px] text-[18px] cursor-pointer">
                         Enroll Now
                       </span>
                     </Button>
