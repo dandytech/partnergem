@@ -76,7 +76,7 @@ export default function Blog() {
         return (
           <div
             key={blog.id}
-            className={` py-10 ${
+            className={`md:py-10  pt-5 md:pt-0 ${
               isWhiteBg
                 ? "bg-white"
                 : "bg-[url('/assets/images/bgimg14.png')] bg-cover bg-center bg-no-repeat"
@@ -84,7 +84,7 @@ export default function Blog() {
           >
             <div className={`${blog.id === 1 ? "pt-40" : ""}`}>
               <div
-                className={`w-[75%] m-auto gap-5 pb-20 flex ${
+                className={`lg:w-[75%] px-3 md:px-5 m-auto gap-5 pb-20 flex ${
                   isWhiteBg
                     ? "border-[#000000] border-b-2"
                     : " border-b-2 border-b-white"
@@ -93,23 +93,23 @@ export default function Blog() {
                 <div>
                   <img src={blog.pic} alt="blog" className="w-full h-full" />
                 </div>
-                <div className="w-[40%]">
+                <div className="lg:w-[40%]">
                   <p
-                    className={`font-[400] text-[20px] font-Marcellus-SC ${
+                    className={`font-[400] md:text-[20px] text-[18px] font-Marcellus-SC ${
                       isWhiteBg ? "text-[#000A1C]" : "text-white"
                     }`}
                   >
                     {blog.date}
                   </p>
                   <p
-                    className={`font-[700] text-[40px] ${
+                    className={`font-[700] md:text-[34px] text-[24px] lg:text-[40px] ${
                       isWhiteBg ? "text-[#000A1C]" : "text-white"
                     }`}
                   >
                     {blog.title}
                   </p>
                   <p
-                    className={`font-[400] text-[20px] font-Marcellus-SC py-7 ${
+                    className={`font-[400] md:text-[20px] text-[18px] font-Marcellus-SC py-7 ${
                       isWhiteBg ? "text-[#000A1C]" : "text-white"
                     }`}
                   >

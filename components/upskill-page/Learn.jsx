@@ -79,7 +79,7 @@ export default function Learn() {
                 {course.title}
               </div>
 
-              <div className="flex justify-between items-center px-10 gap-5">
+              <div className="flex justify-between items-center px-10 lg:gap-5">
                 <div className="font-Marcellus font-[400] lg:text-[20px] text-[16px] md:text-[18px]">
                   {course.author}
                 </div>

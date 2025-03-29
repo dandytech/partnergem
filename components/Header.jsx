@@ -38,7 +38,7 @@ export default function Header({ src, textColor }) {
             </li>
           </ul>
         </div>
-        <div className="md:hidden text-xl  p-2 rounded-full shadow:md">
+        <div className="md:hidden text-xl border-white px-2 py-1 rounded-2xl bg-white shadow:md">
           <button onClick={handleMenu}>
             {" "}
             <GiHamburgerMenu />

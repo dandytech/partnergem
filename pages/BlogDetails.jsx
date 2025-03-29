@@ -11,7 +11,7 @@ export default function BlogDetails() {
         <img src={bgimg15} className="w-full" />
       </div>
 
-      <div className="flex flex-col gap-5 pt-20 px-20">
+      <div className="flex flex-col gap-5 pt-20 lg:px-20 px-3 md:px-5">
         <div className="flex gap-5 items-center">
           <button className="text-white bg-[#000000] font-Marcellus-SC font-[400] text-[20px] py-1 px-5 rounded-xl">
             Blog
@@ -20,7 +20,7 @@ export default function BlogDetails() {
             JUL, 2024
           </span>
         </div>
-        <div className="text-[#000000] py-5 font-[700] text-[40px] w-[45%]">
+        <div className="text-[#000000] py-5 font-[700] lg:text-[40px] md:text-[30px] text-[20px] lg:w-[45%]">
           Enhancing Document Extraction with Azure AI Document Intelligence and
           LangChain for RAG Workflows
         </div>
