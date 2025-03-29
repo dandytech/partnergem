@@ -5,27 +5,27 @@ import { NavLink } from "react-router-dom";
 const courses = [
   {
     id: 1,
-    pic: "../../src/assets/images/learn1.png",
+    pic: "/assets/images/learn1.png",
     title: "Build Scalable, AI-Ready Data Pipelines with Industry Experts",
     author: "By David Mark",
   },
   {
     id: 2,
-    pic: "../../src/assets/images/learn2.png",
+    pic: "/assets/images/learn2.png",
     title:
       "Training Custom AI Models– Using TensorFlow, PyTorch, and Hugging Face ",
     author: "By Osas Adams",
   },
   {
     id: 3,
-    pic: "../../src/assets/images/learn3.png",
+    pic: "/assets/images/learn3.png",
     title:
       "Speech & Voice Synthesis – How To Generates Realistic Speech With AI",
     author: "By Angela Bait",
   },
   {
     id: 4,
-    pic: "../../src/assets/images/learn4.png",
+    pic: "/assets/images/learn4.png",
     title: "Understanding And Using Large      Language Models (LLMs)",
     author: "By Mark Chello",
   },
@@ -34,19 +34,19 @@ const courses = [
 const morecourses = [
   {
     id: 1,
-    pic: "../src/assets/images/course1.png",
+    pic: "/assets/images/course1.png",
     title:
       "Image Generation with AI- Introduction to DALL·E, Stable Diffusion, and MidJourney",
   },
   {
     id: 2,
-    pic: "../src/assets/images/course2.png",
+    pic: "/assets/images/course2.png",
     title:
       "Data Engineering for AI Models-How to Build, Optimize, and Scale AI-Ready Data Pipelines!",
   },
   {
     id: 3,
-    pic: "../src/assets/images/course3.png",
+    pic: "/assets/images/course3.png",
     title:
       "Building AI-Powered Chatbots-Create Smart, Conversational AI Assistants with GPT!",
   },
@@ -87,7 +87,7 @@ export default function Learn() {
                   {" "}
                   <NavLink to="/upskill-details">
                     <Button>
-                      <span className="font-[400] font-Marcellus-SC text-[20px] px-5">
+                      <span className="font-[400] font-Marcellus-SC text-[20px] px-5 cursor-pointer">
                         Enroll Now
                       </span>
                     </Button>
@@ -118,7 +118,7 @@ export default function Learn() {
                 <div className="w-[40%] m-auto mt-3">
                   <NavLink to="/upskill-details">
                     <Button>
-                      <span className="font-[400] font-Marcellus-SC text-[20px]">
+                      <span className="font-[400] font-Marcellus-SC text-[20px] cursor-pointer">
                         Enroll Now
                       </span>
                     </Button>

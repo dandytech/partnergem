@@ -1,5 +1,5 @@
 import React from "react";
-import map from "../../public/assets/images/africamap.png";
+import map from "/assets/images/africamap.png";
 
 export default function AfricaMap() {
   return (

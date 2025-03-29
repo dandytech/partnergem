@@ -1,12 +1,12 @@
 import React from "react";
-import ai1 from "../../public/assets/images/ai1.png";
-import ai2 from "../../public/assets/images/ai2.png";
-import ai3 from "../../public/assets/images/ai3.png";
-import ai4 from "../../public/assets/images/ai4.png";
+import ai1 from "/assets/images/ai1.png";
+import ai2 from "/assets/images/ai2.png";
+import ai3 from "/assets/images/ai3.png";
+import ai4 from "/assets/images/ai4.png";
 export default function GenAI() {
   return (
     <div>
-      <div className="pb-40 bg-[url('/../public/assets/images/bgimg10.png')] bg-cover bg-center bg-no-repeat ">
+      <div className="pb-40 bg-[url('/assets/images/bgimg10.png')] bg-cover bg-center bg-no-repeat ">
         <div className="flex justify-between w-[50%] pt-40 m-auto">
           <div className="w-[158px] h-[158px] mt-20">
             <img src={ai1} alt="ai1" width="100" className="w-full" />

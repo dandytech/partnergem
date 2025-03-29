@@ -1,5 +1,5 @@
 import React from "react";
-import logoPartnergen from "../public/assets/images/logoPartnergen.png";
+import logoPartnergen from "/assets/images/logoPartnergen.png";
 
 import Header from "../components/Header";
 import Button from "../components/Button";
@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const blogs = [
   {
     id: 1,
-    pic: "../src/assets/images/blog1.png",
+    pic: "/assets/images/blog1.png",
     date: "SEP, 2024",
     title: "Exploring AI Agent-Driven Auto Insurance Claims RAG Pipeline",
     description:
@@ -17,7 +17,7 @@ const blogs = [
 
   {
     id: 2,
-    pic: "../src/assets/images/blog2.png",
+    pic: "/assets/images/blog2.png",
     date: "JUL, 2024",
     title:
       "Enhancing Document Extraction with Azure AI Document Intelligence and LangChain for RAG Workflows",
@@ -27,7 +27,7 @@ const blogs = [
 
   {
     id: 3,
-    pic: "../src/assets/images/blog3.png",
+    pic: "/assets/images/blog3.png",
     date: "JUL, 2024",
     title:
       "Enhancing Document Extraction with Azure AI Document Intelligence and LangChain for RAG Workflows",
@@ -37,7 +37,7 @@ const blogs = [
 
   {
     id: 4,
-    pic: "../src/assets/images/blog4.png",
+    pic: "/assets/images/blog4.png",
     date: "MAY, 2021",
     title:
       "Ingest Azure Event Hub Telemetry Data with Apache PySpark Structured Streaming on Databricks",
@@ -47,7 +47,7 @@ const blogs = [
 
   {
     id: 5,
-    pic: "../src/assets/images/blog5.png",
+    pic: "/assets/images/blog5.png",
     date: "NOV, 2020",
     title:
       "Write Data from Azure Databricks to Azure Dedicated SQL Pool using ADLS Gen 2",
@@ -57,7 +57,7 @@ const blogs = [
 
   {
     id: 6,
-    pic: "../src/assets/images/blog6.png",
+    pic: "/assets/images/blog6.png",
     date: "NOV, 2020",
     title:
       "Publish PySpark Streaming Query Metrics to Azure Log Analytics using the Data Collector REST API ",
@@ -79,7 +79,7 @@ export default function Blog() {
             className={` py-10 ${
               isWhiteBg
                 ? "bg-white"
-                : "bg-[url('/../public/assets/images/bgimg14.png')] bg-cover bg-center bg-no-repeat"
+                : "bg-[url('/assets/images/bgimg14.png')] bg-cover bg-center bg-no-repeat"
             }`}
           >
             <div className={`${blog.id === 1 ? "pt-40" : ""}`}>

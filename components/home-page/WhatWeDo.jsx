@@ -1,11 +1,11 @@
 import React from "react";
-import genAI from "../../public/assets/images/genAI.png";
-import cloudData from "../../public/assets/images/cloudData.png";
-import upskill from "../../public/assets/images/upskill.png";
+import genAI from "/assets/images/genAI.png";
+import cloudData from "/assets/images/cloudData.png";
+import upskill from "/assets/images/upskill.png";
 
 export default function WhatWeDo() {
   return (
-    <div className="pb-20 bg-[url('/../public/assets/images/bgimg2.png')] bg-no-repeat bg-cover py-20">
+    <div className="pb-20 bg-[url('/assets/images/bgimg2.png')] bg-no-repeat bg-cover py-20">
       <div className="px-20">
         <p className="flex gap-2 justify-center pt-10 font-bold ">
           {" "}

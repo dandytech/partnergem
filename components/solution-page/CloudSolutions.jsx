@@ -1,12 +1,12 @@
 import React from "react";
-import cloud1 from "../../public/assets/icons/cloud1.png";
-import cloud2 from "../../public/assets/icons/cloud2.png";
-import cloud3 from "../../public/assets/icons/cloud3.png";
-import cloud4 from "../../public/assets/icons/cloud4.png";
+import cloud1 from "/assets/icons/cloud1.png";
+import cloud2 from "/assets/icons/cloud2.png";
+import cloud3 from "/assets/icons/cloud3.png";
+import cloud4 from "/assets/icons/cloud4.png";
 
 export default function CloudSolutions() {
   return (
-    <div className="pb-40 bg-[url('/../public/assets/images/bgimg11.png')] bg-cover bg-center bg-no-repeat ">
+    <div className="pb-40 bg-[url('/assets/images/bgimg11.png')] bg-cover bg-center bg-no-repeat ">
       <div className="flex gap-10 justify-between px-20 pt-20">
         <div className="w-[30%]">
           <p className="bg-gradient-to-r from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] text-[55px] ">

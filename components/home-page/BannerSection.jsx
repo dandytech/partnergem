@@ -1,8 +1,8 @@
 import React from "react";
-import box from "../../public/assets/images/box.png";
+import box from "/assets/images/box.png";
 export default function BannerSection() {
   return (
-    <div className="pb-20 bg-[url('/../public/assets/images/bgimg1.png')] bg-cover bg-center bg-no-repeat">
+    <div className="pb-20 bg-[url('/assets/images/bgimg1.png')] bg-cover bg-center bg-no-repeat">
       <div className="flex items-center px-20 w-full pt-40 text-[#FFFFFF]">
         <div className="w-[70%] mt-10">
           <p className="font-[700] text-[55px] md:block">

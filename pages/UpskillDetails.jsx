@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
-import logo3 from "../public/assets/images/logo3.png";
-import videocover from "../public/assets/images/videocover.png";
+import logo3 from "/assets/images/logo3.png";
+import videocover from "/assets/images/videocover.png";
 
 const lessons = [
   {
@@ -89,7 +89,7 @@ export default function UpskillDetails() {
     <div>
       <Header src={logo3} textColor="text-black" />
 
-      <div className=" bg-[url('/../public/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover  pb-20">
+      <div className=" bg-[url('/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover  pb-20">
         <div className="pt-40 lg:flex justify-between gap-10 items-center lg:px-20 md:px-5 px-3 pb-10 ">
           <div className=" lg:w-[35%] lg:mb-20 mb-10">
             <p className="text-[#000A1C] font-[700] font-Syne md:text-[48px] text-[24px]">
@@ -156,7 +156,7 @@ export default function UpskillDetails() {
           </div>
         </div>
 
-        <div className=" bg-[url('/../public/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover pt-10">
+        <div className=" bg-[url('/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover pt-10">
           <div className="lg:flex justify-between gap-5 lg:px-20 px-3 md:py-10">
             <div>
               <p className="font-[400] text-[30px] font-Marcellus-SC text-[#000000]">
@@ -319,7 +319,7 @@ export default function UpskillDetails() {
         </div>
       </div>
 
-      <div className=" bg-[url('/../public/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover  pb-20">
+      <div className=" bg-[url('/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover  pb-20">
         <div className="mb-5 md:mb-10 pt-10 px-20">
           <p className="font-[400] text-[24px] font-Marcellus-SC text-[#000000] mb-3 pt-10">
             Payment Method

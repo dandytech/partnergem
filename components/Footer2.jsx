@@ -4,7 +4,7 @@ import InputBox from "./InputBox";
 export default function Footer2() {
   return (
     <>
-      <div className="pb-20 bg-[url('/../public/assets/images/bgimg16.png')] bg-no-repeat bg-cover py-20 px-20">
+      <div className="pb-20 bg-[url('/assets/images/bgimg16.png')] bg-no-repeat bg-cover py-20 px-20">
         <div className="flex items-center justify-between gap-20 w-[90%]">
           <div className="w-[40%]">
             <p className="font-[700] text-[55px] text-white">

@@ -1,15 +1,15 @@
 import React from "react";
 
-import logo3 from "../../public/assets/images/logo3.png";
-import dataeng1 from "../../public/assets/images/dataeng1.png";
-import dataeng2 from "../../public/assets/images/dataeng2.png";
-import dataeng3 from "../../public/assets/images/dataeng3.png";
-import box2 from "../../public/assets/images/box2.png";
+import logo3 from "/assets/images/logo3.png";
+import dataeng1 from "/assets/images/dataeng1.png";
+import dataeng2 from "/assets/images/dataeng2.png";
+import dataeng3 from "/assets/images/dataeng3.png";
+import box2 from "/assets/images/box2.png";
 import Header from "../Header";
 
 export default function DataEng() {
   return (
-    <div className="pb-40 bg-[url('/../public/assets/images/bgimg8.png')] bg-cover bg-center bg-no-repeat ">
+    <div className="pb-40 bg-[url('/assets/images/bgimg8.png')] bg-cover bg-center bg-no-repeat ">
       <Header src={logo3} textColor="text-black" />
 
       <div className="px-20">
@@ -42,7 +42,7 @@ export default function DataEng() {
           ))}
         </div>
 
-        <div className="pb-20 bg-[url('/../public/assets/images/bgimg9.png')] bg-cover bg-center bg-no-repeat mr-40 p-20 mt-24">
+        <div className="pb-20 bg-[url('/assets/images/bgimg9.png')] bg-cover bg-center bg-no-repeat mr-40 p-20 mt-24">
           <div className="flex justify-between items-center ">
             <div className="w-[50%]">
               <p className="font-[700] text-[28px] text-white">

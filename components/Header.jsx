@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
-import logo3 from "../src/assets/images/logo3.png";
+import logo3 from "/assets/images/logo3.png";
 
 export default function Header({ src, textColor }) {
   const [show, setShow] = useState(true);

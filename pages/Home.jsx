@@ -8,7 +8,7 @@ import History from "../components/home-page/History";
 import AfricaMap from "../components/home-page/AfricaMap";
 import Header from "../components/Header";
 
-import logoPartnergen from "../src/assets/images/logoPartnergen.png";
+import logoPartnergen from "/assets/images/logoPartnergen.png";
 
 export default function Home() {
   return (

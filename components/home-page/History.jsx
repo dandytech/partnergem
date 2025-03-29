@@ -70,7 +70,7 @@ const histories = [
 
 export default function History() {
   return (
-    <div className="pb-20 bg-[url('/../public/assets/images/bgimg6.png')] bg-no-repeat bg-cover pt-20 px-20 pb-40">
+    <div className="pb-20 bg-[url('/assets/images/bgimg6.png')] bg-no-repeat bg-cover pt-20 px-20 pb-40">
       <p className="font-[700] text-[48px] text-white pb-20 pt-10">
         Our History
       </p>
