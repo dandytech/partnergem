@@ -2,6 +2,10 @@ import React from "react";
 import Header from "../components/Header";
 import logo3 from "/assets/images/logo3.png";
 import videocover from "/assets/images/videocover.png";
+import calender from "/assets/icons/calender.png";
+import time from "/assets/icons/time.png";
+import user from "/assets/icons/user.png";
+import chat from "/assets/icons/chat.png";
 
 const lessons = [
   {
@@ -90,40 +94,51 @@ export default function UpskillDetails() {
       <Header src={logo3} textColor="text-black" />
 
       <div className=" bg-[url('/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover  pb-20">
-        <div className="pt-40 lg:flex justify-between gap-10 items-center lg:px-20 md:px-5 px-3 pb-10 ">
+        <div className="lg:pt-40 pt-34 lg:flex justify-between gap-10 items-center lg:px-20 md:px-5 px-3 pb-10 ">
           <div className=" lg:w-[35%] lg:mb-20 mb-10">
-            <p className="text-[#000A1C] font-[700] font-Syne md:text-[48px] text-[24px]">
+            <p className="text-[#000A1C] font-[700] font-Syne lg:text-[48px] md:text-[34px] text-[24px]">
               <div>Understanding And Using Large Language Models (LLMs)</div>
             </p>
-            <p className="font-[400] text-[24px] font-Marcellus-SC mt-3">
+            <p className="font-[400] md:text-[24px] text-[20px] font-Marcellus-SC mt-3">
               Instructed by Chinny Chukwudozie
             </p>
             <p className="flex gap-2 mt-3">
               <span className="flex gap-2 items-center">
                 {" "}
-                <span>icon</span>
+                <span>
+                  <img src={user} alt="icon" />
+                </span>
                 <span>Expert Lead Program</span>
               </span>
               <span className="flex gap-2 items-center">
                 {" "}
-                <span>icon</span>
+                <span>
+                  {" "}
+                  <img src={time} alt="icon" />
+                </span>
                 <span>Lifetime Acess</span>
               </span>
             </p>
 
-            <p className="flex gap-2">
+            <p className="flex gap-2 mt-3">
               <span className="flex gap-2 items-center">
                 {" "}
-                <span>icon</span>
+                <span>
+                  {" "}
+                  <img src={chat} alt="icon" />
+                </span>
                 <span>Language English</span>
               </span>
               <span className="flex gap-2 items-center">
                 {" "}
-                <span>icon</span>
+                <span>
+                  {" "}
+                  <img src={calender} alt="icon" />
+                </span>
                 <span>Weekly Live Q&A</span>
               </span>
             </p>
-            <p className="text-[#000000] font-[600] md:text-[48px] text-[30px] md:mt-10 mt-3">
+            <p className="text-[#000000] font-[600] lg:text-[48px] md:text-[30px] text-[20px] md:mt-10 mt-3">
               Coming Soon
             </p>
           </div>
@@ -143,10 +158,10 @@ export default function UpskillDetails() {
             <p className="text-[#000000] font-[400] font-Marcellus-SC text-[24px] pt-5">
               Overview
             </p>
-            <p className="font-[#000A1C] font-[700] md:text-[48px] text-[24px] py-5">
+            <p className="font-[#000A1C] font-[700] lg:text-[48px] md:text-[30px] text-[24px] py-5">
               Understanding And Using Large Language Models (LLMs)
             </p>
-            <p className="text-[#4D4D4D] font-[400] text-[20px] font-Marcellus-SC pb-10">
+            <p className="text-[#4D4D4D] font-[400] md:text-[20px] text-[18px] font-Marcellus-SC lg:pb-10">
               Large Language Models (LLMs) like GPT-4, Claude, and LLaMA are
               transforming the way we interact with AI. This course will give
               you a deep understanding of LLMs, from their fundamental
@@ -157,18 +172,18 @@ export default function UpskillDetails() {
         </div>
 
         <div className=" bg-[url('/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover pt-10">
-          <div className="lg:flex justify-between gap-5 lg:px-20 px-3 md:py-10">
+          <div className="lg:flex justify-between gap-5 lg:px-20 px-3 lg:py-10">
             <div>
-              <p className="font-[400] text-[30px] font-Marcellus-SC text-[#000000]">
+              <p className="font-[400] text-[20px] md:text-[24px] lg:text-[30px] font-Marcellus-SC text-[#000000]">
                 Course Details
               </p>
-              <p className="font-[400] md:text-[48px] text-[24px] font-Syne text-[#000A1C] lg:w-[70%] leading-tight mt-3 mb-10 lg:mb-0">
-                What it’s all about
+              <p className="font-[400] lg:text-[48px] text-[24px] font-Syne text-[#000A1C] lg:w-[70%] leading-tight mt-3 mb-10 lg:mb-0 md:text-[30px]">
+                What it's all about
               </p>
             </div>
 
             <div className="lg:w-[60%]">
-              <div className="flex justify-between gap-10 ">
+              <div className="md:flex justify-between gap-10 ">
                 <div className="flex flex-col gap-5 md:gap-10">
                   <div>
                     <p className="font-Syne font-[700] md:text-[24px] text-[20px] text-[#000000]">
@@ -208,7 +223,7 @@ export default function UpskillDetails() {
 
                 <div className="flex flex-col gap-5 md:gap-10">
                   <div>
-                    <p className="font-Syne font-[700] md:text-[24px] text-[20px] text-[#000000]">
+                    <p className="font-Syne font-[700] md:text-[24px] text-[20px] text-[#000000] mt-5 md:mt-0">
                       Structure
                     </p>
                     <p className="font-[400] text-[#000000] text-[16px] md:text-[20px]font-Marcellus-SC">
@@ -266,12 +281,12 @@ export default function UpskillDetails() {
         </div>
       </div>
 
-      <div className="py-10 px-20">
+      <div className="lg:py-10 lg:px-20 px-3 md:px-5">
         <div className="mb-5 md:mb-10 pt-10">
           <p className="font-[400] text-[24px] font-Marcellus-SC text-[#000000] mb-3">
             Content
           </p>
-          <p className="text-[#000A1C] font-[700] font-Syne text-[48px] leading-tight w-[30%]">
+          <p className="text-[#000A1C] font-[700] font-Syne lg:text-[48px] text-[30px] md:text-[34px] leading-tight lg:w-[30%]">
             What you will learn on this course
           </p>
         </div>
@@ -279,10 +294,10 @@ export default function UpskillDetails() {
         <div className="pb-10">
           <div className="flex justify-between items-center border-b pb-5">
             <div className="flex justify-between items-center w-[82%] ">
-              <span className="font-Marcellus-SC font-[400] text-[24px] text-[#000000] ">
+              <span className="font-Marcellus-SC font-[400] lg:text-[24px] text-[20px] text-[#000000] ">
                 Lesson
               </span>
-              <span className="font-Marcellus-SC font-[400] text-[24px] text-[#000000] ">
+              <span className="font-Marcellus-SC font-[400] lg:text-[24px] text-[20px] text-[#000000] ">
                 Chapters
               </span>
             </div>
@@ -297,20 +312,20 @@ export default function UpskillDetails() {
               <div className="flex justify-between items-center gap-5 w-[80%]">
                 <div className="flex items-center gap-2  ">
                   {" "}
-                  <span className="font-Marcellus-SC font-[400] text-[20px]  bg-[#C685FF] rounded-xl text-white py-1 px-5">
+                  <span className="font-Marcellus-SC font-[400] md:text-[20px] text-[12px] bg-[#C685FF] rounded-xl text-white py-1 md:px-5 px-3">
                     {lesson.week}
                   </span>
-                  <span className="font-Marcellus-SC font-[400] text-[20px] text-[#000000] ">
+                  <span className="font-Marcellus-SC font-[400] lg:text-[20px] text-[#000000] ">
                     {lesson.title}
                   </span>
                 </div>
-                <div className="font-Syne font-[400] text-[20px] text-[#000000] ">
+                <div className="font-Syne font-[400] lg:text-[20px] text-[#000000] ">
                   {lesson.chapter}
                 </div>
               </div>
 
               <div>
-                <button className="font-[400] text-[20px] font-Marcellus-SC px-5 py-1 border border-[#0E0E0E] rounded-xl cursor-pointer">
+                <button className="font-[400] lg:text-[20px] font-Marcellus-SC px-5 py-1 border border-[#0E0E0E] rounded-xl cursor-pointer">
                   Learn More
                 </button>
               </div>
@@ -320,32 +335,32 @@ export default function UpskillDetails() {
       </div>
 
       <div className=" bg-[url('/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover  pb-20">
-        <div className="mb-5 md:mb-10 pt-10 px-20">
+        <div className="mb-5 md:mb-10 lg:pt-10 lg:px-20 px-3 md:px-5">
           <p className="font-[400] text-[24px] font-Marcellus-SC text-[#000000] mb-3 pt-10">
             Payment Method
           </p>
-          <p className="text-[#000A1C] font-[700] font-Syne text-[48px] leading-tight w-[30%]">
+          <p className="text-[#000A1C] font-[700] font-Syne lg:text-[48px] md:text-[34px] text-[30px] leading-tight md:w-[30%]">
             Find the plan that suits you
           </p>
         </div>
 
-        <div className=" grid grid-cols-3 gap-5 px-20">
+        <div className="md:grid grid-cols-3 gap-5 lg:px-20 md:px-5 px-3 space-y-5 md:space-y-0">
           {payments.map((payment) => (
             <div key={payment.id}>
               <div className="flex flex-col gap-5 border-[#E8E8E8] border-l-3 px-5 py-3">
-                <p className="text-[#000000] font-[600] font-Syne text-[32px]">
+                <p className="text-[#000000] font-[600] font-Syne lg:text-[32px] md:text-[24px] md:text-20px] text-[18px]">
                   {payment.title}
                 </p>
-                <p className="font-[400] text-[#5B5B5B] text-[24px] font-Marcellus-SC">
+                <p className="font-[400] md:text-20px] text-[18px] text-[#5B5B5B] lg:text-[24px] font-Marcellus-SC">
                   {payment.instruction}
                 </p>
-                <p className="font-[400] text-[#5B5B5B] text-[24px] font-Marcellus-SC pt-3">
+                <p className="font-[400] text-[#5B5B5B] md:text-20px] text-[18px] lg:text-[24px] font-Marcellus-SC pt-3">
                   {payment.description}
                 </p>
-                <p className="font-[400] text-[#5B5B5B] text-[24px] font-Marcellus-SC py-3">
+                <p className="font-[400] text-[#5B5B5B] md:text-20px] text-[18px] lg:text-[24px] font-Marcellus-SC py-3">
                   {payment.amount}
                 </p>
-                <p className="font-[400] text-[#5B5B5B] text-[24px] font-Marcellus-SC">
+                <p className="font-[400] text-[#5B5B5B] md:text-20px] text-[18px] lg:text-[24px] font-Marcellus-SC">
                   {payment.qty}
                 </p>
               </div>

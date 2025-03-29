@@ -35,20 +35,24 @@ export default function Footer2() {
         </div>
 
         <div className=" px-3 md:px-5 py-5 lg:mt-20 mt-10">
-          <p className="font-[700] md:text-[20px] text-white text-[14px]">Privacy Policy</p>
+          <p className="font-[700] lg:text-[20px] text-white text-[14px]">
+            Privacy Policy
+          </p>
 
-          <p className="font-[700] md:text-[20px] text-[14px] text-white py-5">
+          <p className="font-[700] lg:text-[20px] text-[14px] text-white py-5">
             Terms of Service
           </p>
           <p className="lg:flex justify-between text-white gap-10 font-[700] md:text-[20px] lg:text-[48px] space-y-5 lg:space-y-0 text-[14px]">
-            <div>© PARTNERGEM 2024 ALL RIGHTS RESERVED</div>
+            <div className="lg:text-[20px] text-[14px]">
+              © PARTNERGEM 2024 ALL RIGHTS RESERVED
+            </div>
             <div className="flex gap-3">
-              <button className="">Linkedin</button>
-              <button>X</button>
-              <button>Instagram</button>
+              <button className="lg:text-[20px] text-[14px]">Linkedin</button>
+              <button className="lg:text-[20px] text-[14px]">X</button>
+              <button className="lg:text-[20px] text-[14px]">Instagram</button>
             </div>
 
-            <div>business@partnergem.com</div>
+            <div className="lg:text-[20px] text-[14px]">business@partnergem.com</div>
           </p>
         </div>
       </div>
