@@ -5,7 +5,7 @@ export default function InputBox({ placeholder, type, name }) {
     <div>
       <p>
         <input
-          className="px-5 py-3 w-full bg-white rounded-lg uppercase font-marcellus"
+          className="px-5 py-3 w-full bg-white rounded-lg uppercase placeholder:font-Marcellus-SC"
           placeholder={placeholder}
           type={type}
           name={name}

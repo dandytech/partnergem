@@ -21,13 +21,13 @@ export default function Header({ src, textColor }) {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="solutions">Solutions</NavLink>
+              <NavLink to="/solutions">Solutions</NavLink>
             </li>
             <li>
-              <NavLink to="/">Upskilling</NavLink>
+              <NavLink to="/upskilling">Upskilling</NavLink>
             </li>
             <li>
-              <NavLink to="/">Blog</NavLink>
+              <NavLink to="/blog">Blog</NavLink>
             </li>
           </ul>
         </div>
