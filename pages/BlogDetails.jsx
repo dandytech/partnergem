@@ -39,7 +39,7 @@ export default function BlogDetails() {
           uploading data to the search index, with minimal or no custom coding
           required. Nonetheless, I noted a limitation: the current skills,
           despite the option to import external ones, failed to extract all
-          vital content from documents, such as embedded tables. Introduction. 
+          vital content from documents, such as embedded tables. Introduction.
           In this post and the accompanying notebook, I present a solution
           utilizing the prebuilt layout model from Azure AI Document
           Intelligence to extract essential content (including a table) from a
@@ -53,7 +53,7 @@ export default function BlogDetails() {
           It uses the LangChain Azure AI Document Intelligence document loader
           to ingest, extract and retrieve table values, paragraphs, and layout
           information from a PDF file. The output is in markdown format, which
-          is processed by LangChain’s markdown header splitter. This class
+          is processed by LangChain's markdown header splitter. This class
           supports the semantic chunking feature of Azure AI Document
           Intelligence service to produce semantic chunks of the source
           document. We employ the Azure AI Search Python SDK to build the Azure
@@ -61,33 +61,33 @@ export default function BlogDetails() {
           index content field and execute a hybrid + semantic search query at
           the end of the notebook to assess the search result relevance. Below
           is a straightforward architectural diagram of the solution.: Before
-          this post extends too much and loses its appeal, let’s explore the
+          this post extends too much and loses its appeal, let's explore the
           essential elements of the solution architecture and the corresponding
           notebook code implementations that are pertinent to this discussion.
-          LangChain – Ingestion, Extraction and Semantic Chunking: LangChain is
+          LangChain - Ingestion, Extraction and Semantic Chunking: LangChain is
           a framework for developing LLM (large language model) powered
           applications. LangChain has built a huge collection of abstractions
           that enable the integration of LLMs to external data sources, user
           input query and other components and services required to build GenAI
           application use cases. We introduced LangChain into this solution
-          because it provided two key abstractions: 1. The Azure AI Document
-          Intelligence Loader API offers an interface for loading data into
+          because it provided two key abstractions: 1. The Azure AI Document
+          Intelligence Loader API offers an interface for loading data into
           Azure AI Document Intelligence and extracting the necessary content
           from documents. In this proof of concept, I am utilizing a PDF
           document that contains an embedded table. To facilitate the successful
           import of the PDF document from Azure Blob Storage, the RBAC role of
           Storage Blob Data Reader has been granted to the Document Intelligence
-          managed identity for the Blob storage resource. The ‘prebuilt layout‘
+          managed identity for the Blob storage resource. The 'prebuilt layout'
           extraction model for Document Intelligence is one of the parameter
           values provided during the ingestion task. It supports formatting of
           tables with column headers into key-value pairs (to enhance
           readability for the LLM), and each table row is transformed into a
           text line, while maintaining the original structure of the table
-          values. 2. The MarkdownHeaderTextSplitter class divides the markdown
+          values. 2. The MarkdownHeaderTextSplitter class divides the markdown
           file generated from an extracted PDF document according to specified
           headers. Since a markdown file is structured with headers, this
           organizes the content into semantic sections. The headers used for
-          splitting are determined by the ‘headers_to_split_on‘ configuration.  
+          splitting are determined by the 'headers_to_split_on' configuration.
           Chunking is a crucial component in the development of any RAG-based
           solution. There are two primary methods of chunking: fixed-sized and
           semantic. This PoC aims to evaluate the relevance and accuracy of RAG
@@ -99,14 +99,14 @@ export default function BlogDetails() {
           coherent fragments within sentences or paragraphs. These fragments can
           be processed separately and then reassembled into semantic
           representations without losing information, context, or semantic
-          integrity. The text’s inherent meaning guides the chunking process. In
+          integrity. The text's inherent meaning guides the chunking process. In
           any document extraction process, the chunking strategy requires
           careful consideration and planning, as it significantly impacts the
           relevance and accuracy of query responses in RAG-based solutions.
           Determining the size of tokens per page can aid in the implementation
-          of chunking. The text splitter’s output is a list of document objects,
+          of chunking. The text splitter's output is a list of document objects,
           as demonstrated in the following code snippet from the notebook.:
-          Azure AI Search – Create and Load Vector Index: Azure AI Search offers
+          Azure AI Search - Create and Load Vector Index: Azure AI Search offers
           secure and rapid information retrieval at scale for data content
           within generative AI applications. In this scenario, the content of
           the PDF document, which is chunked, will be vectorized and stored in
@@ -118,23 +118,23 @@ export default function BlogDetails() {
           vector search index by first defining the schema, then initiating the
           data import process. For the vector search configuration, I chose the
           Hierarchical Navigable Small World (HNSW) algorithm over the
-          Exhaustive k-nearest neighbors (KNN) because it’s more efficient. HNSW
+          Exhaustive k-nearest neighbors (KNN) because it's more efficient. HNSW
           offers a scalable solution for nearest neighbor searches by quickly
           identifying approximate nearest neighbors, which is ideal for
           large-scale and high-dimensional data applications. Additional details
-          on vector search configuration can be found here. I am utilizing the
+          on vector search configuration can be found here. I am utilizing the
           Azure OpenAI text-embedding-ada-002 model to vectorize segmented
           content for vector search capabilities. An ID field for each document
           in the index is generated using a custom function that employs the
           base64 Python package. The code snippet below illustrates the
           configuration of the vector index and the data loading process for
           this proof of concept: Azure AI Document Intelligence: Azure AI
-          Document Intelligence is a cloud-based Azure AI Service that enables
+          Document Intelligence is a cloud-based Azure AI Service that enables
           the building of intelligent document processing solutions. In a
           previous exploration, I implemented the Azure AI Search integrated
           vectorization feature that enables an automated solution for data
-          extraction, ingestion and retrieval for RAG applications. While it’s
-          great for a lot of use cases, I wasn’t able to get answers to queries
+          extraction, ingestion and retrieval for RAG applications. While it's
+          great for a lot of use cases, I wasn't able to get answers to queries
           that required searching through embedded table data in the PDF file.
           Azure AI Document Intelligence has a wider range of document
           extraction models, with a lot more functionality for complex PDF
@@ -145,11 +145,11 @@ export default function BlogDetails() {
           chunking technique seems an exciting option that could potentially
           yield better answers and search responses than the fixed-sized
           chunking technique. Semantic and Hybrid Search: This search feature
-          provided an accurate answer to my query regarding the health plan’s
+          provided an accurate answer to my query regarding the health plan's
           cost. The prior solution failed to address this question as the
           extraction skills applied, along with the underlying model, were
           unable to completely decipher the PDF document and extract the values
-          from the embedded table. Azure Functions – Semantic Kernel: Azure
+          from the embedded table. Azure Functions - Semantic Kernel: Azure
           Functions, a serverless computing service, hosts the semantic kernel
           and LangChain source code for the application. The semantic kernel,
           similar to LangChain, is an LLM framework that aids in the development
@@ -169,7 +169,7 @@ export default function BlogDetails() {
           I plan to explore the evaluation of generative AI applications using
           the prompt flow Python SDK, responsible prompt engineering tools and
           techniques, and content safety measures in Azure. The code for the PoC
-          is available in the following repository.
+          is available in the following repository.
         </div>
       </div>
     </div>
