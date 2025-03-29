@@ -1,5 +1,5 @@
 import React from "react";
-import flower from "../../src/assets/images/flower.png";
+import flower from "../../public/assets/images/flower.png";
 
 import Button from "../Button";
 
@@ -10,7 +10,7 @@ export default function BannerSection() {
         <p className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] text-[55px] w-[70%] text-center m-auto pt-40 pb-5">
           Stay Ahead of the Curve with the Latest Generative AI Courses
         </p>
-        <div className="pb-40 bg-[url('/../src/assets/images/bgimg12.png')] bg-cover bg-center bg-no-repeat h-[846px]"></div>
+        <div className="pb-40 bg-[url('/../public/assets/images/bgimg12.png')] bg-cover bg-center bg-no-repeat h-[846px]"></div>
       </div>
 
       <div className="flex items-center justify-between gap-10 px-20 py-20">

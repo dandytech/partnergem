@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MeetFoundersSection() {
   return (
-    <div className="pb-20 bg-[url('/../src/assets/images/bgimg3.png')] bg-no-repeat bg-cover pb-40 pt-20">
+    <div className="pb-20 bg-[url('/../public/assets/images/bgimg3.png')] bg-no-repeat bg-cover pb-40 pt-20">
       <div className="w-[45%] m-auto text-center">
         <p className="font-[700] text-[48px] pb-3 text-[#FFFFFF]">
           Meet the founders

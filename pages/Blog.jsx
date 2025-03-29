@@ -1,5 +1,5 @@
 import React from "react";
-import logoPartnergen from "../src/assets/images/logoPartnergen.png";
+import logoPartnergen from "../public/assets/images/logoPartnergen.png";
 
 import Header from "../components/Header";
 import Button from "../components/Button";
@@ -79,7 +79,7 @@ export default function Blog() {
             className={` py-10 ${
               isWhiteBg
                 ? "bg-white"
-                : "bg-[url('/../src/assets/images/bgimg14.png')] bg-cover bg-center bg-no-repeat"
+                : "bg-[url('/../public/assets/images/bgimg14.png')] bg-cover bg-center bg-no-repeat"
             }`}
           >
             <div className={`${blog.id === 1 ? "pt-40" : ""}`}>

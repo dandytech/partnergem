@@ -1,7 +1,7 @@
 import React from "react";
-import logo3 from "../src/assets/images/logo3.png";
+import logo3 from "../public/assets/images/logo3.png";
 import Header from "../components/Header";
-import bgimg15 from "../src/assets/images/bgimg15.png";
+import bgimg15 from "../public/assets/images/bgimg15.png";
 export default function BlogDetails() {
   return (
     <div>

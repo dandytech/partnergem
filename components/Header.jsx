@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import logo3 from "../src/assets/images/logo3.png";
+
 export default function Header({ src, textColor }) {
   const [show, setShow] = useState(true);
 
@@ -11,7 +12,7 @@ export default function Header({ src, textColor }) {
   };
   return (
     <div className="absolute w-full py-3">
-      <div className="flex justify-between items-center lg:px-20 md:px-5 px-3 lg:w-[80%] ">
+      <div className="flex justify-between items-center lg:px-20 md:px-5 px-3 w-[80%] ">
         <div className="">
           <NavLink to="/">
             {" "}
@@ -38,7 +39,7 @@ export default function Header({ src, textColor }) {
           </ul>
         </div>
         <div className="md:hidden text-xl">
-          <button onClick={handleMenu} className="cursor-pointer">
+          <button onClick={handleMenu}>
             {" "}
             <GiHamburgerMenu />
           </button>

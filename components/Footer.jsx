@@ -5,7 +5,7 @@ import Button from "./Button";
 export default function Footer() {
   return (
     <div>
-      <div className="pb-20 bg-[url('/../src/assets/images/bgimg7.png')] bg-no-repeat bg-cover py-20">
+      <div className="pb-20 bg-[url('/../public/assets/images/bgimg7.png')] bg-no-repeat bg-cover py-20">
         <div className="w-[35%] m-auto">
           <p className="font-[700] text-[48px] text-white">
             Let us know about your new venture

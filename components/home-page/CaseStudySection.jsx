@@ -42,7 +42,7 @@ export default function CaseStudySection() {
           >
             <SwiperSlide>
               {" "}
-              <div className="pb-20 bg-[url('/../src/assets/images/slide1.png')] bg-cover bg-center bg-no-repeat h-full w-full flex justify-center items-center rounded-4xl">
+              <div className="pb-20 bg-[url('/../public/assets/images/slide1.png')] bg-cover bg-center bg-no-repeat h-full w-full flex justify-center items-center rounded-4xl">
                 <p className="text-center text-[80px] font-[700] text-[#FFFFFF] w-[70%]">
                   {" "}
                   Data Warehousing Healtcare Project
@@ -51,7 +51,7 @@ export default function CaseStudySection() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className="pb-20 bg-[url('/../src/assets/images/slide2.png')] bg-cover bg-center bg-no-repeat h-full w-full flex justify-center items-center rounded-4xl">
+              <div className="pb-20 bg-[url('/../public/assets/images/slide2.png')] bg-cover bg-center bg-no-repeat h-full w-full flex justify-center items-center rounded-4xl">
                 <p className="text-center text-[80px] font-[700] text-[#FFFFFF] w-[70%]">
                   {" "}
                   Serverless Computing Model Projects
@@ -61,7 +61,7 @@ export default function CaseStudySection() {
 
             <SwiperSlide>
               {" "}
-              <div className="pb-20 bg-[url('/../src/assets/images/slide3.png')] bg-cover bg-center bg-no-repeat h-full w-full flex justify-center items-center rounded-4xl">
+              <div className="pb-20 bg-[url('/../public/assets/images/slide3.png')] bg-cover bg-center bg-no-repeat h-full w-full flex justify-center items-center rounded-4xl">
                 <p className="text-center text-[80px] font-[700] text-[#FFFFFF] w-[60%]">
                   {" "}
                   Docker Healthcare Project
@@ -71,7 +71,7 @@ export default function CaseStudySection() {
 
             <SwiperSlide>
               {" "}
-              <div className="pb-20 bg-[url('/../src/assets/images/slide4.png')] bg-cover bg-center bg-no-repeat h-full w-full flex justify-center items-center rounded-4xl">
+              <div className="pb-20 bg-[url('/../public/assets/images/slide4.png')] bg-cover bg-center bg-no-repeat h-full w-full flex justify-center items-center rounded-4xl">
                 <p className="text-center text-[80px] font-[700] text-[#FFFFFF] w-[60%]">
                   {" "}
                   Capstone Project Cloud Native
@@ -81,7 +81,7 @@ export default function CaseStudySection() {
 
             <SwiperSlide>
               {" "}
-              <div className="pb-20 bg-[url('/../src/assets/images/slide5.png')] bg-cover bg-center bg-no-repeat h-full w-full flex justify-center items-center rounded-4xl">
+              <div className="pb-20 bg-[url('/../public/assets/images/slide5.png')] bg-cover bg-center bg-no-repeat h-full w-full flex justify-center items-center rounded-4xl">
                 <p className="text-center text-[80px] font-[700] text-[#FFFFFF] w-[60%]">
                   {" "}
                   Cloud Native Application Design
