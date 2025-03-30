@@ -33,7 +33,16 @@ export default function DataEng() {
           ].map((item, index) => (
             <div
               key={index}
-              className="flex flex-col gap-5  mt-5 lg:mt-10 bg-[#EAF0F3] pt-10 lg:h-[500px] justify-between rounded-lg"
+              className="flex flex-col gap-5  mt-5 lg:mt-10 bg-[#EAF0F3] pt-10 lg:h-[500px] justify-between rounded-lg transition-transform duration-500 hover:scale-110"
+              data-aos={
+                index === 0
+                  ? "zoom-out-left"
+                  : index === 2
+                  ? "fade-down"
+                  : "zoom-out-right"
+              }
+              data-aos-easing={index === 1 ? "linears" : ""}
+              data-aos-duration={index === 1 ? "1500" : ""}
             >
               <p className="text-[#000000] text-center pb-5 md:text-[28px] text-[20px] font-[700] lg:px-20 px-10">
                 {item.text}

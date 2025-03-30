@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+
 import ai1 from "/assets/images/ai1.png";
 import ai2 from "/assets/images/ai2.png";
 import ai3 from "/assets/images/ai3.png";
@@ -8,13 +10,23 @@ export default function GenAI() {
     <div>
       <div className="lg:pb-40 pb-10 bg-[url('/assets/images/bgimg10.png')] bg-cover bg-center bg-no-repeat ">
         <div className="md:flex justify-between lg:w-[50%] px-3 md:px-10 lg:pt-40 pt-5 md:pt-10 m-auto">
-          <div className="md:w-[158px] md:h-[158px] lg:mt-20 md:mt-20 mt-5">
+          <div
+            className="md:w-[158px] md:h-[158px] lg:mt-20 md:mt-20 mt-5"
+            data-aos="fade-down-left"
+          >
             <img src={ai1} alt="ai1" width="100" className="w-full" />
           </div>
-          <div className="md:w-[236px] md:h-[236px] py-5 md:py-0">
+          <motion.div
+            className="md:w-[236px] md:h-[236px] py-5 md:py-0"
+            animate={{ scale: [1, 1.1, 1] }} // Zoom in and out effect
+            transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+          >
             <img src={ai2} alt="ai1" width="100" className="w-full" />
-          </div>
-          <div className="md:w-[158px] md:h-[158px] md:mt-20">
+          </motion.div>
+          <div
+            className="md:w-[158px] md:h-[158px] md:mt-20"
+            data-aos="fade-down-right"
+          >
             <img src={ai3} alt="ai1" width="100" className="w-full" />
           </div>
         </div>
@@ -30,9 +42,13 @@ export default function GenAI() {
         </div>
 
         <div className="md:w-[50%] m-auto  flex items-center justify-center lg:mt-20 mt-10">
-          <div className="md:w-[158px] md:h-[158px] ">
+          <motion.div
+            className="md:w-[158px] md:h-[158px] "
+            animate={{ scale: [1, 1.6, 1] }} // Zoom in and out effect
+            transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+          >
             <img src={ai4} alt="ai1" width="100" className="w-full" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

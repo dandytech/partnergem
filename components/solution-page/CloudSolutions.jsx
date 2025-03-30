@@ -19,7 +19,12 @@ export default function CloudSolutions() {
         </div>
 
         <div className="md:grid grid-cols-2 py-10 space-y-5 md:space-y-5 lg:px-5 gap-5 lg:pt-40">
-          <div className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl">
+          <div
+            className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <p>
               {" "}
               <img src={cloud1} atl="icon" width={100} />
@@ -35,7 +40,12 @@ export default function CloudSolutions() {
               data lakes and delta lakehouse.
             </p>
           </div>
-          <div className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl">
+          <div
+            className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <p>
               {" "}
               <img src={cloud2} atl="icon" width={100} className="w-full" />
@@ -50,7 +60,12 @@ export default function CloudSolutions() {
               expert cloud security solutions.
             </p>
           </div>
-          <div className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl">
+          <div
+            className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl"
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <p>
               {" "}
               <img src={cloud3} atl="icon" width={100} className="w-full" />
@@ -65,7 +80,12 @@ export default function CloudSolutions() {
               our expert cloud optimization services.
             </p>
           </div>
-          <div className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl">
+          <div
+            className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl mb-5"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <p>
               {" "}
               <img src={cloud4} atl="icon" width={100} className="w-full" />

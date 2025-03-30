@@ -67,10 +67,23 @@ export default function Learn() {
         </div>
 
         <div className="md:grid grid-cols-2 gap-5 lg:py-20 md:py-10 py-5">
-          {courses.map((course) => (
+          {courses.map((course, index) => (
             <div
-              key={course.id}
+              key={index}
               className="flex  flex-col gap-5 shadow-md border border-gray-100 pb-5 mt-5 md:mt-0 rounded-xl"
+              data-aos={
+                index === 0
+                  ? "flip-left"
+                  : index === 1
+                  ? "flip-right"
+                  : index === 2
+                  ? "fade-left"
+                  : index === 3
+                  ? "fade-right"
+                  : ""
+              }
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
             >
               <div>
                 <img src={course.pic} alt="image" className="w-full" />
@@ -103,11 +116,20 @@ export default function Learn() {
             More Courses
           </p>
           <div className="md:grid grid-cols-3 gap-5 pb-10">
-            {morecourses.map((course) => (
+            {morecourses.map((course, index) => (
               <div
-                key={course.id}
+                key={index}
                 className="flex  flex-col gap-5 shadow-md border border-gray-100  rounded-xl pb-10"
-              >
+                data-aos={
+                  index === 0
+                    ? "fade-right"
+                    : index === 1
+                    ? "flip-right"
+                    : index === 2
+                    ? "fade-left"
+                   
+                    : ""
+                } >
                 <div className="flex items-center justify-center">
                   <img src={course.pic} width={100} className="w-full" />
                 </div>
