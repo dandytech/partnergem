@@ -6,7 +6,7 @@ import calender from "/assets/icons/calender.png";
 import time from "/assets/icons/time.png";
 import user from "/assets/icons/user.png";
 import chat from "/assets/icons/chat.png";
-
+import ReactPlayer from "react-player";
 const lessons = [
   {
     id: 1,
@@ -94,9 +94,9 @@ export default function UpskillDetails() {
       <Header src={logo3} textColor="text-black" />
 
       <div className=" bg-[url('/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover  pb-20">
-        <div className="lg:pt-40 pt-34 lg:flex justify-between gap-10 items-center lg:px-20 md:px-5 px-3 pb-10 ">
-          <div className=" lg:w-[35%] lg:mb-20 mb-10">
-            <p className="text-[#000A1C] font-[700] font-Syne lg:text-[48px] md:text-[34px] text-[24px]">
+        <div className="lg:pt-40 pt-34 lg:flex  gap-10 lg:gap-0 items-center lg:px-20 md:px-5 px-3 pb-10 lg:w-[90%] justify-between">
+          <div className=" lg:w-[50%] lg:mb-20 mb-10">
+            <p className="text-[#000A1C] font-[700] font-Syne lg:text-[48px] md:text-[34px] text-[24px] lg:w-[75%] ">
               <div>Understanding And Using Large Language Models (LLMs)</div>
             </p>
             <p className="font-[400] md:text-[24px] text-[20px] font-Marcellus-SC mt-3">
@@ -143,12 +143,24 @@ export default function UpskillDetails() {
             </p>
           </div>
 
-          <div>
-            <img
-              src={videocover}
-              alt="video"
-              width={100}
-              className="lg:w-[65%] w-full"
+          <div className="lg:w-[50%] p-3">
+            <ReactPlayer
+              url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              light={
+                <span className="w-full lg:h-auto h-full">
+                  {" "}
+                  <img
+                    src={videocover}//cover image
+                    alt="video cover"
+                    className="md:w-full lg:h-auto h-full"
+                  />
+                </span>
+              }
+              playing={false}
+              controls
+              playIcon={<div />} // Hides the default play icon
+              width="100%" // Ensures the video width fills the div
+              height="auto" // Keeps the aspect ratio
             />
           </div>
         </div>
