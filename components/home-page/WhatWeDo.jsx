@@ -27,9 +27,9 @@ export default function WhatWeDo() {
           </span>
         </p>
 
-        <div className="lg:flex items-center justify-between lg:gap-40 space-y-10 md:space-y-10 lg:space-y-0 md:pb-20">
+        <div className="lg:flex items-center justify-between lg:gap-40 space-y-10 md:space-y-10 lg:space-y-0 md:pb-20" >
           {/* Generative AI Solutions */}
-          <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-col items-center gap-3" data-aos="fade-right">
             <motion.p animate={bounceAnimation}>
               <img src={genAI} alt="genAI" width={100} className="w-full" />
             </motion.p>
@@ -43,7 +43,7 @@ export default function WhatWeDo() {
           </div>
 
           {/* Cloud Data Engineering */}
-          <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-col items-center gap-3"  >
             <motion.p animate={bounceAnimation}>
               <img
                 src={cloudData}
@@ -62,7 +62,7 @@ export default function WhatWeDo() {
           </div>
 
           {/* Upskilling in the Age of AI */}
-          <div className="flex flex-col items-center gap-3 mt-[-100px] lg:mt-[-50px]">
+          <div className="flex flex-col items-center gap-3 mt-[-100px] lg:mt-[-50px]" data-aos="fade-left">
             <motion.p animate={bounceAnimation}>
               <img src={upskill} alt="upskill" width={100} className="w-full" />
             </motion.p>
