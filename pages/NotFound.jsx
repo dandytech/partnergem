@@ -6,7 +6,7 @@ export default function NotFound() {
   return (
     <div className="h-[100vh] items-center flex justify-center ">
       <>
-        <div className="flex md:m-auto h-[70vh] flex-col-reverse items-center justify-center p-10 border border-[#0697DF] rounded-4xl md:w-[50%] m-5">
+        <div className="flex lg:m-auto h-[70vh] flex-col-reverse items-center justify-center p-10 border border-[#0697DF] rounded-4xl lg:w-[50%] m-5">
           <span>
             {" "}
             <button
