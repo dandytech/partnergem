@@ -6,12 +6,12 @@ export default function NotFound() {
   return (
     <div className="h-[100vh] items-center flex justify-center ">
       <>
-        <div className="flex m-auto h-[90vh] flex-col-reverse items-center justify-center p-10">
+        <div className="flex md:m-auto h-[70vh] flex-col-reverse items-center justify-center p-10 border border-[#0697DF] rounded-4xl md:w-[50%] m-5">
           <span>
             {" "}
             <button
               onClick={() => navigate(-1)}
-              className="text-[26px] border-2 px-5 py-1 border-[#0697DF] rounded-xl mt-5"
+              className="text-[26px] border-2 px-5 py-1 border-[#0697DF] font-Marcellus rounded-xl mt-5"
             >
               &larr; Go back
             </button>
@@ -20,7 +20,6 @@ export default function NotFound() {
             {" "}
             <p className="text-center pb-10 text-[48px]">404</p>
             <h1 className="text-[24px] md:text-[50px] font-Marcellus-SC text-center leading-tight">
-             
               <p className="text-center text-6xl  pb-3">😢</p>
               The page you are looking for could not be found!
             </h1>
