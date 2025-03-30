@@ -70,7 +70,7 @@ const histories = [
 
 export default function History() {
   return (
-    <div className="lg:pb-20 bg-[url('/assets/images/bgimg6.png')] bg-no-repeat bg-cover lg:pt-20 md:pt-10 lg:px-20 md:px-5 md:pb-14 px-3 lg:pb-40">
+    <div className="lg:pb-20 bg-[url('/assets/images/bgimg6.png')] bg-no-repeat bg-cover lg:pt-20 md:pt-10 lg:px-20 md:px-5 md:pb-14 px-3 lg:pb-20 !overflow-x-hidden">
       <p className="font-[700] lg:text-[48px] text-[24px] md:text-[34px] text-white md:pb-20 pb-10 pt-10">
         Our History
       </p>
@@ -78,7 +78,7 @@ export default function History() {
         spaceBetween={30}
         slidesPerView={4} // Default for larger screens
         autoplay={{ delay: 0, disableOnInteraction: false }}
-        speed={3000}
+        speed={6000}
         loop={true}
         freeMode={true}
         modules={[Autoplay]}

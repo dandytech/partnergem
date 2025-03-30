@@ -12,7 +12,7 @@ import logoPartnergen from "/assets/images/logoPartnergen.png";
 
 export default function Home() {
   return (
-    <div className="!overflow-x-hidden">
+    <div className="!overflow-x-hidden home">
       <Header src={logoPartnergen} textColor="text-white" />
       <BannerSection />
       <WhatWeDo />

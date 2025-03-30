@@ -46,7 +46,7 @@ const slides = [
 export default function CaseStudySection() {
   return (
     <div className="lg:px-20 md:px-5 px-3  pb-20 ">
-      <p className="lg:flex gap-3 justify-center pt-10 md:pt-20 font-bold">
+      <p className="lg:flex gap-3 justify-center pt-10 md:pt-20 font-bold overflow-x-hidden">
         <span className="lg:text-[48px] md:text-[34px] text-[30px] font-[700] bg-gradient-to-r from-[#0697DF] to-[#0697DF] text-transparent bg-clip-text">
           View Our
         </span>
@@ -55,7 +55,7 @@ export default function CaseStudySection() {
         </span>
       </p>
 
-      <div className="text-[80px] font-[700] flex items-center justify-center rounded-4xl mt-5 md:mt-5 h-[500px] border border-amber-100">
+      <div className="text-[80px] font-[700] flex items-center justify-center rounded-4xl mt-5 md:mt-5 lg:h-[500px] h-[300px] border border-amber-100">
         <div className="w-[100%] h-full m-auto text-center">
           <Swiper
             cssMode={true}

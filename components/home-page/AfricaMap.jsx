@@ -3,7 +3,7 @@ import map from "/assets/images/africamap.png";
 
 export default function AfricaMap() {
   return (
-    <div className="md:flex justify-between items-center px-3 md:px-5 lg:px-20 py-10 lg:py-40 bg-[#F8F8F8] space-y-10 md:space-y-10">
+    <div className="md:flex justify-between items-center px-3 md:px-5 lg:px-20 py-10 lg:py-20 bg-[#F8F8F8] space-y-10 md:space-y-10">
       <div className="md:w-[50%]">
         <p className="font-[700] lg:text-[48px] text-[24px] md:text-[34px] lg:w-[70%] bg-gradient-to-r from-[#0697DF] to-[#000A1C] bg-clip-text text-transparent">
           We’re growing our team across the United States, Africa, and beyond

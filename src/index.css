@@ -27,10 +27,12 @@ button {
 .swiper {
   width: 100%;
   height: 100%;
+  overflow-x: hidden !important;
 }
 
 .swiper-slide {
   text-align: center;
+  overflow-x: hidden !important;
   font-size: 18px;
   background: #fff;
 
@@ -41,8 +43,13 @@ button {
 }
 
 .swiper-slide img {
+  overflow-x: hidden !important;
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.home {
+  overflow-x: hidden !important;
 }

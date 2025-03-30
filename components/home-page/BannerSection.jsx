@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function BannerSection() {
   return (
-    <div className="pb-20 bg-[url('/assets/images/bgimg1.png')] bg-cover bg-center bg-no-repeat">
+    <div className="pb-20 bg-[url('/assets/images/bgimg1.png')] bg-cover bg-center bg-no-repeat overflow-x-hidden">
       <div className="md:flex items-center lg:px-20 md:px-5 px-3 w-full pt-40 text-[#FFFFFF]">
         <div className="md:w-[70%] lg:mt-10 md:mt-5">
           <p className="font-[700] text-[55px] lg:block hidden leading-tight">

@@ -5,7 +5,7 @@ import upskill from "/assets/images/upskill.png";
 
 export default function WhatWeDo() {
   return (
-    <div className="pb-20 bg-[url('/assets/images/bgimg2.png')] bg-no-repeat bg-cover lg:py-20 md:py-5">
+    <div className="pb-20 bg-[url('/assets/images/bgimg2.png')] bg-no-repeat bg-cover lg:py-20 md:py-5 overflow-x-hidden">
       <div className="lg:px-20 md:px-5 px-3 pt-5">
         <p className="flex gap-2 justify-center pt-10 font-bold ">
           {" "}
