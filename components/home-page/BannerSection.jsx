@@ -15,7 +15,7 @@ export default function BannerSection() {
             Cloud and Data Engineering
           </p>
 
-          <p className="font-[700] text-[20px] md:text-[34px] lg:hidden">
+          <p className="font-[700] text-[24px] md:text-[34px] lg:hidden">
             {" "}
             A dynamic outfit delivering innovative solutions in Generative AI,
             Cloud and Data Engineering
@@ -32,7 +32,7 @@ export default function BannerSection() {
         <div className="lg:w-[30%] md:w-[50%]">
           <motion.img
             src={box}
-            alt="Rotating"
+            alt="box"
             className="w-full"
             animate={{ rotate: 360 }}
             transition={{ repeat: Infinity, duration: 5, ease: "linear" }}

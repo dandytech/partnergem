@@ -6,6 +6,7 @@ import dataeng2 from "/assets/images/dataeng2.png";
 import dataeng3 from "/assets/images/dataeng3.png";
 import box2 from "/assets/images/box2.png";
 import Header from "../Header";
+import { motion } from "framer-motion";
 
 export default function DataEng() {
   return (
@@ -56,7 +57,13 @@ export default function DataEng() {
               </p>
             </div>
             <div className="md:w-[50%]">
-              <img src={box2} width={100} alt="box" className="w-full" />
+              <motion.img
+                src={box2}
+                alt="box"
+                className="w-full"
+                animate={{ rotate: 360 }}
+                transition={{ repeat: Infinity, duration: 5, ease: "linear" }}
+              />
             </div>
           </div>
         </div>
