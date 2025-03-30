@@ -44,7 +44,7 @@ export default function Footer2() {
           </p>
           <p className="lg:flex justify-between text-white gap-10 font-[700] md:text-[20px] lg:text-[48px] space-y-5 lg:space-y-0 text-[14px]">
             <div className="lg:text-[20px] text-[14px]">
-              © PARTNERGEM 2024 ALL RIGHTS RESERVED
+              © PARTNERGEM {new Date().getFullYear()} ALL RIGHTS RESERVED
             </div>
             <div className="flex gap-3">
               <button className="lg:text-[20px] text-[14px]">Linkedin</button>
@@ -52,7 +52,9 @@ export default function Footer2() {
               <button className="lg:text-[20px] text-[14px]">Instagram</button>
             </div>
 
-            <div className="lg:text-[20px] text-[14px]">business@partnergem.com</div>
+            <div className="lg:text-[20px] text-[14px]">
+              business@partnergem.com
+            </div>
           </p>
         </div>
       </div>
