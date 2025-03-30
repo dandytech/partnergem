@@ -91,9 +91,9 @@ export default function Blog() {
                 } ${isLastItem ? "mb-20" : ""}`}
               >
                 <div>
-                  <img src={blog.pic} alt="blog" className="w-full h-full" />
+                  <img src={blog.pic} alt="blog" className="w-full h-full py-5" />
                 </div>
-                <div className="lg:w-[40%]">
+                <div className="lg:w-[40%] py-5">
                   <p
                     className={`font-[400] md:text-[20px] text-[18px] font-Marcellus-SC ${
                       isWhiteBg ? "text-[#000A1C]" : "text-white"
