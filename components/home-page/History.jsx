@@ -15,7 +15,7 @@ const histories = [
   {
     id: 1,
     year: 2017,
-    title: "The spark of an idea  ",
+    title: "The spark of an idea",
     history:
       "What started as an idea between [founders/co-founders] turned into late-night coding sessions, countless prototypes, and the official launch of [Startup Name].",
   },
@@ -38,6 +38,22 @@ const histories = [
 
   {
     id: 4,
+    year: 2024,
+    title: "Today Looking Forward",
+    history:
+      "We're just getting started. As we scale, innovate, and push boundaries, we remain committed to building technology that makes a difference..",
+  },
+
+  {
+    id: 5,
+    year: 2017,
+    title: "The spark of an idea",
+    history:
+      "What started as an idea between [founders/co-founders] turned into late-night coding sessions, countless prototypes, and the official launch of [Startup Name].",
+  },
+
+  {
+    id: 6,
     year: 2019,
     title: "The first Breakthrough",
     history:
@@ -45,26 +61,19 @@ const histories = [
   },
 
   {
-    id: 5,
+    id: 7,
     year: 2021,
     title: "Gaining Momentum",
     history:
       "We expanded our team, secured funding, and saw incredible adoption of our technology, fuelling our next phase of innovation..",
   },
-  {
-    id: 6,
-    year: 2018,
-    title: "The first Breakthrough",
-    history:
-      "Our first major product release/partnership/customer marked a turning point, proving that our vision had real impact.",
-  },
 
   {
-    id: 7,
-    year: 2010,
-    title: "The spark of an idea  ",
+    id: 8,
+    year: 2024,
+    title: "Today Looking Forward",
     history:
-      "What started as an idea between [founders/co-founders] turned into late-night coding sessions, countless prototypes, and the official launch of [Startup Name].",
+      "We're just getting started. As we scale, innovate, and push boundaries, we remain committed to building technology that makes a difference..",
   },
 ];
 

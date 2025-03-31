@@ -10,12 +10,14 @@ export default function GenAI() {
     <div>
       <div className="lg:pb-40 pb-10 bg-[url('/assets/images/bgimg10.png')] bg-cover bg-center bg-no-repeat ">
         <div className="md:flex justify-between lg:gap-10 lg:w-[50%] px-3 md:px-10 lg:pt-40 pt-5 md:pt-10 m-auto">
-          <div
+          <motion.div
             className="md:w-[158px] md:h-[158px] lg:mt-20 md:mt-20 mt-5"
             data-aos="fade-down-left"
+            animate={{ scale: [1, 1.4, 1] }} // Zoom in and out effect
+            transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
           >
             <img src={ai1} alt="ai1" width="100" className="w-full" />
-          </div>
+          </motion.div>
           <motion.div
             className="md:w-[236px] md:h-[236px] py-5 md:py-0"
             animate={{ scale: [1, 1.1, 1] }} // Zoom in and out effect
@@ -23,12 +25,14 @@ export default function GenAI() {
           >
             <img src={ai2} alt="ai1" width="100" className="w-full" />
           </motion.div>
-          <div
+          <motion.div
             className="md:w-[158px] md:h-[158px] md:mt-20"
             data-aos="fade-down-right"
+            animate={{ scale: [1, 1.4, 1] }} // Zoom in and out effect
+            transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
           >
             <img src={ai3} alt="ai1" width="100" className="w-full" />
-          </div>
+          </motion.div>
         </div>
 
         <div className="md:w-[50%] m-auto text-center lg:mt-20 mt-10 ">
