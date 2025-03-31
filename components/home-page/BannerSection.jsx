@@ -29,13 +29,31 @@ export default function BannerSection() {
             Get Started
           </button>
         </div>
-        <div className="lg:w-[30%] md:w-[50%]">
+        {/* <div className="lg:w-[30%] md:w-[50%]">
           <motion.img
             src={box}
             alt="box"
             className="w-full"
             animate={{ rotate: 360 }}
             transition={{ repeat: Infinity, duration: 5, ease: "linear" }}
+          />
+        </div> */}
+
+        <div className="lg:w-[30%] md:w-[50%]">
+          <motion.img
+            src={box}
+            alt="box"
+            className="w-full"
+            animate={{
+              rotateX: [0, 180],
+              rotateY: [0, 180],
+              rotateZ: [0, 360], // Maintain Z rotation as well
+            }}
+            transition={{
+              repeat: Infinity,
+              duration: 4,
+              ease: "easeInOut",
+            }}
           />
         </div>
       </div>
