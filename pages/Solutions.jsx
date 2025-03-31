@@ -5,7 +5,7 @@ import CloudSolutions from "../components/solution-page/CloudSolutions";
 
 export default function Solutions() {
   return (
-    <div>
+    <div className="!overflow-x-hidden overflow">
       <DataEng />
       <GenAI />
       <CloudSolutions />

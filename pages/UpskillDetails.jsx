@@ -93,7 +93,7 @@ export default function UpskillDetails() {
     <div>
       <Header src={logo3} textColor="text-black" />
 
-      <div className=" bg-[url('/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover  pb-20">
+      <div className=" bg-[url('/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover  pb-20 !overflow-x-hidden overflow">
         <div className="lg:pt-40 pt-34 lg:flex  gap-10 lg:gap-0 items-center lg:px-20 md:px-5 px-3 pb-10 lg:w-[90%] justify-between">
           <div className=" lg:w-[50%] lg:mb-20 mb-10">
             <p className="text-[#000A1C] font-[700] font-Syne lg:text-[48px] md:text-[34px] text-[24px] lg:w-[75%] ">
@@ -150,7 +150,7 @@ export default function UpskillDetails() {
                 <span className="w-full lg:h-auto h-full">
                   {" "}
                   <img
-                    src={videocover}//cover image
+                    src={videocover} //cover image
                     alt="video cover"
                     className="md:w-full lg:h-auto h-full"
                   />

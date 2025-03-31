@@ -50,6 +50,6 @@ button {
   object-fit: cover;
 }
 
-.home {
+.overflow {
   overflow-x: hidden !important;
 }
