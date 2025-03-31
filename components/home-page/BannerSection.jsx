@@ -38,7 +38,6 @@ export default function BannerSection() {
             transition={{ repeat: Infinity, duration: 5, ease: "linear" }}
           />
         </div> */}
-
         <div className="lg:w-[30%] md:w-[50%]">
           <motion.img
             src={box}
@@ -46,13 +45,13 @@ export default function BannerSection() {
             className="w-full"
             animate={{
               rotateX: [0, 180],
-              rotateY: [0, 180],
-              rotateZ: [0, 360], // Maintain Z rotation as well
+              rotateY: [0, 360], // Smaller range to reduce warping
+              rotateZ: [0, 180],
             }}
             transition={{
-              repeat: Infinity,
-              duration: 4,
-              ease: "easeInOut",
+              rotateX: { repeat: Infinity, duration: 4, ease: "linear" },
+              rotateY: { repeat: Infinity, duration: 6, ease: "linear" }, // Slightly slower
+              rotateZ: { repeat: Infinity, duration: 5, ease: "linear" }, // Slightly different speed
             }}
           />
         </div>
