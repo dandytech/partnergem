@@ -6,8 +6,8 @@ const useTypingEffect = (text, speed = 100) => {
   useEffect(() => {
     let index = 0;
     const interval = setInterval(() => {
-      if (index < text.length) {
-        setDisplayText((prev) => prev + text[index]);
+      if (index <= text.length) {
+        setDisplayText(text.slice(0, index)); // Use slice to prevent mutation issues
         index++;
       } else {
         clearInterval(interval);
