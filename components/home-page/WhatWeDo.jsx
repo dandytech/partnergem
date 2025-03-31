@@ -32,7 +32,7 @@ export default function WhatWeDo() {
             {
               image: genAI,
               title: "Generative AI Solutions",
-              text: "Optimize your operations, scale effortlessly, and innovate faster with our comprehensive cloud engineering services.",
+              text: "Transform how you create, innovate, and engage with our cutting-edge Generative AI solutions.",
             },
             {
               image: cloudData,
@@ -69,15 +69,19 @@ export default function WhatWeDo() {
                 />
               </motion.div>
               <p
-                className={` space-y-3 font-[600] text-[24px] md:text-[32px] text-[#000000] ${
-                  index === 1 ? "lg:mt-[-50px]" : index===2 ? "mt-[-40px] lg:mt-0": ""
+                className={` space-y-3 font-[600] leading-tight text-[24px] md:text-[32px] text-[#000000] ${
+                  index === 1
+                    ? "lg:mt-[-50px]"
+                    : index === 2
+                    ? "mt-[-40px] lg:mt-0"
+                    : ""
                 }`}
               >
                 {item.title.split(" ")[0]} <br />{" "}
                 {item.title.split(" ").slice(1).join(" ")}
               </p>
               <p
-                className={`font-[400] font-Marcellus text-[20px] text-[#000000] 
+                className={`font-[400] lg:w-[80%] font-Marcellus text-[20px] text-[#000000] 
                 }`}
               >
                 {item.text}

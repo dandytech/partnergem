@@ -105,13 +105,13 @@ export default function History() {
             className="!bg-transparent text-white border-l-4 px-5 pb-10 border-[#7A06DF]"
           >
             <div className="flex flex-col gap-3">
-              <p className="font-[600] md:text-[32px] text-[24px] font-Syne">
+              <p className="font-[600] md:text-[32px] text-[24px] font-Syne text-left">
                 {item.year}
               </p>
-              <p className="font-[400] text-[32px]md:text-[32px] text-[24px] ">
+              <p className="font-[400] lg:text-[30px] md:text-[24px] leading-tight text-[20px] text-left">
                 {item.title}
               </p>
-              <p className="font-[400] text-[20px] font-Marcellus pr-5">
+              <p className="font-[400] lg:text-[20px] md:text-[18px] text-[16px] font-Marcellus pr-5 text-left">
                 {item.history}
               </p>
             </div>

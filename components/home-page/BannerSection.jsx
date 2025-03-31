@@ -29,7 +29,7 @@ export default function BannerSection() {
             Get Started
           </button>
         </div>
-        {/* <div className="lg:w-[30%] md:w-[50%]">
+        <div className="lg:w-[30%] md:w-[50%]">
           <motion.img
             src={box}
             alt="box"
@@ -37,8 +37,8 @@ export default function BannerSection() {
             animate={{ rotate: 360 }}
             transition={{ repeat: Infinity, duration: 5, ease: "linear" }}
           />
-        </div> */}
-        <div className="lg:w-[30%] md:w-[50%]">
+        </div>
+        {/* <div className="lg:w-[30%] md:w-[50%]">
           <motion.img
             src={box}
             alt="box"
@@ -54,7 +54,7 @@ export default function BannerSection() {
               rotateZ: { repeat: Infinity, duration: 5, ease: "linear" }, // Slightly different speed
             }}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
