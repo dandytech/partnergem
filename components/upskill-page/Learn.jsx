@@ -137,7 +137,7 @@ export default function Learn() {
                   {course.title}
                 </div>
 
-                <div className="lg:w-[40%] md:w-full w-[50%] md:px-10 lg:px-0  m-auto mt-3">
+                <div className="lg:w-[40%] md:w-full w-[50%] lg:w-fit md:px-10 lg:px-0  m-auto mt-3">
                   <NavLink to="/upskill-details">
                     <Button>
                       <span className="font-[400] font-Marcellus-SC lg:text-[20px] md:text-[18px] text-[14px] md:px-5 px-3 cursor-pointer">

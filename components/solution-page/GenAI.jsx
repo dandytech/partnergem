@@ -9,7 +9,7 @@ export default function GenAI() {
   return (
     <div>
       <div className="lg:pb-40 pb-10 bg-[url('/assets/images/bgimg10.png')] bg-cover bg-center bg-no-repeat ">
-        <div className="md:flex justify-between lg:w-[50%] px-3 md:px-10 lg:pt-40 pt-5 md:pt-10 m-auto">
+        <div className="md:flex justify-between lg:gap-10 lg:w-[50%] px-3 md:px-10 lg:pt-40 pt-5 md:pt-10 m-auto">
           <div
             className="md:w-[158px] md:h-[158px] lg:mt-20 md:mt-20 mt-5"
             data-aos="fade-down-left"
@@ -44,7 +44,7 @@ export default function GenAI() {
         <div className="md:w-[50%] m-auto  flex items-center justify-center lg:mt-20 mt-10">
           <motion.div
             className="md:w-[158px] md:h-[158px] "
-            animate={{ scale: [1, 1.6, 1] }} // Zoom in and out effect
+            animate={{ scale: [1, 1.4, 1] }} // Zoom in and out effect
             transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
           >
             <img src={ai4} alt="ai1" width="100" className="w-full" />
