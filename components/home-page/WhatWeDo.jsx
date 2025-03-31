@@ -81,7 +81,7 @@ export default function WhatWeDo() {
                 {item.title.split(" ").slice(1).join(" ")}
               </p>
               <p
-                className={`font-[400] lg:w-[80%] font-Marcellus text-[20px] text-[#000000] 
+                className={`font-[400] lg:w-[80%] font-Marcellus md:text-[20px] text-[18px] text-[#000000] 
                 }`}
               >
                 {item.text}
