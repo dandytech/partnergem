@@ -9,9 +9,9 @@ export default function GenAI() {
   return (
     <div>
       <div className="lg:pb-40 pb-10 bg-[url('/assets/images/bgimg10.png')] bg-cover bg-center bg-no-repeat ">
-        <div className="md:flex justify-between lg:gap-10 lg:w-[50%] px-3 md:px-10 lg:pt-40 pt-5 md:pt-10 m-auto">
+        <div className="md:flex justify-between lg:gap-10 lg:w-[50%] px-14 md:px-10 lg:pt-40 pt-5 md:pt-10 m-auto">
           <motion.div
-            className="md:w-[158px] md:h-[158px] lg:mt-20 md:mt-20 mt-5"
+            className="md:w-[158px] md:h-[158px] lg:mt-20 py-10 md:mt-20 mt-5"
             data-aos="fade-down-left"
             animate={{ scale: [1, 1.4, 1] }} // Zoom in and out effect
             transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
@@ -19,14 +19,14 @@ export default function GenAI() {
             <img src={ai1} alt="ai1" width="100" className="w-full" />
           </motion.div>
           <motion.div
-            className="md:w-[236px] md:h-[236px] py-5 md:py-0"
+            className="md:w-[236px] md:h-[236px] py-10 md:py-0 "
             animate={{ scale: [1, 1.1, 1] }} // Zoom in and out effect
             transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
           >
             <img src={ai2} alt="ai1" width="100" className="w-full" />
           </motion.div>
           <motion.div
-            className="md:w-[158px] md:h-[158px] md:mt-20"
+            className="md:w-[158px] md:h-[158px] md:mt-20 py-10 md:py-0"
             data-aos="fade-down-right"
             animate={{ scale: [1, 1.4, 1] }} // Zoom in and out effect
             transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
@@ -36,7 +36,7 @@ export default function GenAI() {
         </div>
 
         <div className="md:w-[50%] m-auto text-center lg:mt-20 mt-10 ">
-          <p className="font-[700] lg:text-[55px] text-[30px] md:text-[34px] text-white">
+          <p className="font-[700] lg:text-[55px] text-[30px] md:text-[34px] text-white leading-tight">
             Generative AI Solutions
           </p>
           <p className="text-white font-[400] font-Marcellus text-[20px] lg:px-28 mt-3">

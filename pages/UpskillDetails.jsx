@@ -96,7 +96,7 @@ export default function UpskillDetails() {
       <div className=" bg-[url('/assets/images/bgimg13.png')] bg-no-repeat bg-center bg-cover  pb-20 !overflow-x-hidden overflow">
         <div className="lg:pt-40 pt-34 lg:flex  gap-10 lg:gap-0 items-center lg:px-20 md:px-5 px-3 pb-10 lg:w-[90%] justify-between">
           <div className=" lg:w-[50%] lg:mb-20 mb-10">
-            <p className="text-[#000A1C] font-[700] font-Syne lg:text-[48px] md:text-[34px] text-[24px] lg:w-[75%] ">
+            <p className="text-[#000A1C] font-[700] font-Syne lg:text-[48px] md:text-[34px] text-[24px] lg:w-[75%] leading-tight">
               <div>Understanding And Using Large Language Models (LLMs)</div>
             </p>
             <p className="font-[400] md:text-[24px] text-[20px] font-Marcellus-SC mt-3">
@@ -170,7 +170,7 @@ export default function UpskillDetails() {
             <p className="text-[#000000] font-[400] font-Marcellus-SC text-[24px] pt-5">
               Overview
             </p>
-            <p className="font-[#000A1C] font-[700] lg:text-[48px] md:text-[30px] text-[24px] py-5">
+            <p className="font-[#000A1C] font-[700] lg:text-[48px] md:text-[30px] text-[24px] py-5 leading-tight">
               Understanding And Using Large Language Models (LLMs)
             </p>
             <p className="text-[#4D4D4D] font-[400] md:text-[20px] text-[18px] font-Marcellus-SC lg:pb-10">

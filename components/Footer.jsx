@@ -7,7 +7,7 @@ export default function Footer() {
     <div>
       <div className="lg:pb-20 bg-[url('/assets/images/bgimg7.png')] bg-no-repeat bg-cover lg:py-20 md:py-10 px-3 md:px-5">
         <div className="lg:w-[35%] m-auto">
-          <p className="font-[700] lg:text-[48px] pt-10 text-[30px] md:text-[34px] text-white">
+          <p className="font-[700] lg:text-[48px] pt-10 text-[30px] md:text-[34px] text-white leading-tight">
             Let us know about your new venture
           </p>
           <p className="font-[400] text-[20px] md:py-10 pt-10 pb-3 md:pt-0 text-white font-marcellus">

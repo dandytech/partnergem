@@ -20,7 +20,7 @@ export default function BlogDetails() {
             JUL, 2024
           </span>
         </div>
-        <div className="text-[#000000] py-5 font-[700] lg:text-[40px] md:text-[30px] text-[20px] lg:w-[45%]">
+        <div className="text-[#000000] py-5 font-[700] lg:text-[40px] md:text-[30px] text-[20px] lg:w-[45%] leading-tight">
           Enhancing Document Extraction with Azure AI Document Intelligence and
           LangChain for RAG Workflows
         </div>

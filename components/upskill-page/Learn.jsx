@@ -56,7 +56,7 @@ export default function Learn() {
     <>
       <div className="lg:px-20 px-3 md:px-5 pb-10 md:mt-10 lg:mt-0">
         <div className="flex flex-col lg:gap-5 lg:w-[27%] m-auto">
-          <p className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] lg:text-[55px] md:text-[34px] text-[30px] text-center">
+          <p className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] lg:text-[55px] md:text-[34px] text-[30px] text-center leading-tight">
             Learn From The Best
           </p>
           <p className="text-[#000A1C] font-Marcellus font-[400] lg:text-[24px] text-[18px] md:text-[20px] text-center">

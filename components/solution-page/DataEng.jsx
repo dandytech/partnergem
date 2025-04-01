@@ -15,7 +15,7 @@ export default function DataEng() {
 
       <div className="lg:px-20 md:px-5 px-3">
         <div>
-          <p className="flex items-center md:pt-40 pt-34 font-[700] lg:text-[55px] md:text-[34px] text-[30px] bg-gradient-to-r from-[#0697DF] to-[#000A1C] bg-clip-text text-transparent lg:w-[40%]">
+          <p className="flex items-center md:pt-40 pt-34 font-[700] lg:text-[55px] md:text-[34px] text-[30px] bg-gradient-to-r from-[#0697DF] to-[#000A1C] bg-clip-text text-transparent lg:w-[40%] leading-tight">
             Data Engineering Solutions
           </p>
           <p className="text-[#5F5F5F] md:text-[20px] text-[18px]  font-[400] lg:mt-10 md:mt-5 mt-3 font-Marcellus lg:w-[40%]">

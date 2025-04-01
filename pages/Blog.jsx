@@ -102,7 +102,7 @@ export default function Blog() {
                     {blog.date}
                   </p>
                   <p
-                    className={`font-[700] md:text-[34px] text-[24px] lg:text-[40px] ${
+                    className={`font-[700] leading-tight mt-5 md:text-[34px] text-[24px] lg:text-[40px] ${
                       isWhiteBg ? "text-[#000A1C]" : "text-white"
                     }`}
                   >
