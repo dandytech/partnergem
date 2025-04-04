@@ -26,17 +26,26 @@ export default function Header({ src, textColor }) {
           className={`font-[400] text-[20px] ${textColor} font-Marcellus-SC hidden md:block`}
         >
           <ul className="flex justify-between gap-10  mt-10 ">
-            <li>
+            <li className=" hover:text-[#C28383] transition-colors duration-200">
               <NavLink to="/">Home</NavLink>
             </li>
-            <li>
+            <li className=" hover:text-[#C28383] transition-colors duration-200">
               <NavLink to="/solutions">Solutions</NavLink>
             </li>
-            <li>
+            <li className=" hover:text-[#C28383] transition-colors duration-200">
               <NavLink to="/upskilling">Upskilling</NavLink>
             </li>
             <li>
-              <NavLink to="/blog">Blog</NavLink>
+              <button className="cursor-pointer hover:text-[#0697DF]">
+                <a
+                  href="https://chinnychukwudozie.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" hover:text-[#C28383] transition-colors duration-200"
+                >
+                  Blog
+                </a>
+              </button>
             </li>
           </ul>
         </div>
@@ -62,7 +71,10 @@ export default function Header({ src, textColor }) {
 
         <div className="font-[400] text-[20px] font-Marcellus-SC">
           <ul className="flex flex-col gap-5 mt-3 text-black">
-            <li onClick={handleMenu}>
+            <li
+              onClick={handleMenu}
+              className=" hover:text-[#C28383] transition-colors duration-200"
+            >
               <NavLink to="/">
                 <button
                   onClick={handleMenu}
@@ -72,7 +84,10 @@ export default function Header({ src, textColor }) {
                 </button>
               </NavLink>
             </li>
-            <li onClick={handleMenu}>
+            <li
+              onClick={handleMenu}
+              className=" hover:text-[#C28383] transition-colors duration-200"
+            >
               <NavLink to="/solutions">
                 <button
                   onClick={handleMenu}
@@ -82,7 +97,7 @@ export default function Header({ src, textColor }) {
                 </button>
               </NavLink>
             </li>
-            <li>
+            <li className=" hover:text-[#C28383] transition-colors duration-200">
               <NavLink to="/upskilling">
                 <button
                   onClick={handleMenu}
@@ -92,15 +107,19 @@ export default function Header({ src, textColor }) {
                 </button>
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/blog">
+            <li className=" hover:text-[#C28383] transition-colors duration-200">
+              <a
+                href="https://chinnychukwudozie.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button
                   onClick={handleMenu}
                   className="cursor-pointer hover:text-[#0697DF]"
                 >
                   Blog
                 </button>
-              </NavLink>
+              </a>
             </li>
           </ul>
         </div>

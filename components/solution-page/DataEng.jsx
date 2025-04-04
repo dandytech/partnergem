@@ -25,7 +25,7 @@ export default function DataEng() {
           </p>
         </div>
 
-        <div className="lg:flex justify-between items-start lg:ml-30 lg:gap-10 lg:pt-20 ">
+        <div className="lg:flex justify-between lg:ml-33 lg:gap-10 lg:pt-20">
           {[
             { img: dataeng1, text: "Building Scalable Data Pipelines" },
             { img: dataeng2, text: "Implementing Security Measures" },
@@ -33,7 +33,7 @@ export default function DataEng() {
           ].map((item, index) => (
             <div
               key={index}
-              className="flex flex-col gap-5  mt-5 lg:mt-10 bg-[#EAF0F3] pt-10 lg:h-[500px] justify-between rounded-lg transition-transform duration-500 hover:scale-105"
+              className="flex flex-col justify-between bg-[#EAF0F3] rounded-lg  transition-transform duration-500 hover:scale-105 mt-5 lg:mt-0 flex-1 lg:h-[500px]"
               data-aos={
                 index === 0
                   ? "zoom-out-left"
@@ -44,10 +44,18 @@ export default function DataEng() {
               data-aos-easing={index === 1 ? "linears" : ""}
               data-aos-duration={index === 1 ? "1500" : ""}
             >
-              <p className="text-[#000000] text-center pb-5 md:text-[28px] text-[20px] font-[700] lg:px-20 px-10">
-                {item.text}
-              </p>
-              <img alt="img" src={item.img} className="w-full   object-cover" />
+              <div className="pt-10 px-10 lg:px-10">
+                <p className="text-[#000000] text-center pb-5 md:text-[28px] text-[20px] font-[700]">
+                  {item.text}
+                </p>
+              </div>
+              <div className="mt-auto">
+                <img
+                  alt="img"
+                  src={item.img}
+                  className="w-full object-contain"
+                />
+              </div>
             </div>
           ))}
         </div>

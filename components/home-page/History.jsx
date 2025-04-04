@@ -17,7 +17,7 @@ const histories = [
     year: 2017,
     title: "The spark of an idea",
     history:
-      "What started as an idea between [founders/co-founders] turned into late-night coding sessions, countless prototypes, and the official launch of [Startup Name].",
+      "What started as an idea between Chinny and Eddy turned into late-night coding sessions, countless prototypes, and the official launch of Partnergem.",
   },
 
   {
@@ -49,7 +49,7 @@ const histories = [
     year: 2017,
     title: "The spark of an idea",
     history:
-      "What started as an idea between [founders/co-founders] turned into late-night coding sessions, countless prototypes, and the official launch of [Startup Name].",
+      "What started as an idea between Chinny and Eddy turned into late-night coding sessions, countless prototypes, and the official launch of Partnergem.",
   },
 
   {

@@ -26,8 +26,8 @@ const courses = [
   {
     id: 4,
     pic: "/assets/images/learn4.png",
-    title: "Understanding And Using Large      Language Models (LLMs)",
-    author: "By Mark Chello",
+    title: "Understanding And Using Large Language Models (LLMs)",
+    author: "By Chinny Chukwudozie",
   },
 ];
 
@@ -56,7 +56,10 @@ export default function Learn() {
     <>
       <div className="lg:px-20 px-3 md:px-5 pb-10 md:mt-10 lg:mt-0">
         <div className="flex flex-col lg:gap-5 lg:w-[27%] m-auto">
-          <p className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] lg:text-[55px] md:text-[34px] text-[30px] text-center leading-tight">
+          <p
+            className="bg-gradient-to-b from-[#0697DF] bg-clip-text text-transparent to-[#000A1C] font-[700] lg:text-[55px] md:text-[34px] text-[30px] text-center leading-tight"
+            id="learn"
+          >
             Learn From The Best
           </p>
           <p className="text-[#000A1C] font-Marcellus font-[400] lg:text-[24px] text-[18px] md:text-[20px] text-center">
@@ -99,11 +102,11 @@ export default function Learn() {
                 <div>
                   {" "}
                   <NavLink to="/upskill-details">
-                    <Button>
-                      <span className="font-[400] font-Marcellus-SC lg:text-[20px] md:text-[18px] text-[14px] md:px-5 px-3 cursor-pointer">
-                        Enroll Now
-                      </span>
-                    </Button>
+                    <span className="font-[400] font-Marcellus-SC lg:text-[20px] md:text-[18px] text-[14px] md:px-5 px-3 cursor-pointer">
+                      <NavLink to="/upskill-details font-[400] font-Marcellus-SC lg:text-[24px] md:text-[20px] tex-[18px]">
+                        Coming Soon
+                      </NavLink>
+                    </span>
                   </NavLink>
                 </div>
               </div>
@@ -127,9 +130,9 @@ export default function Learn() {
                     ? "flip-right"
                     : index === 2
                     ? "fade-left"
-                   
                     : ""
-                } >
+                }
+              >
                 <div className="flex items-center justify-center">
                   <img src={course.pic} width={100} className="w-full" />
                 </div>
@@ -137,13 +140,11 @@ export default function Learn() {
                   {course.title}
                 </div>
 
-                <div className="lg:w-[40%] md:w-full w-[50%] lg:w-fit md:px-10 lg:px-0  m-auto mt-3">
+                <div className=" md:w-full w-[50%] lg:w-fit md:px-10 lg:px-0  m-auto mt-3">
                   <NavLink to="/upskill-details">
-                    <Button>
-                      <span className="font-[400] font-Marcellus-SC lg:text-[20px] md:text-[18px] text-[14px] md:px-5 px-3 cursor-pointer">
-                        Enroll Now
-                      </span>
-                    </Button>
+                    <span className="font-[400] font-Marcellus-SC lg:text-[20px] md:text-[18px] text-[14px] md:px-5 px-3 cursor-pointer">
+                      Coming Soon
+                    </span>
                   </NavLink>
                 </div>
               </div>

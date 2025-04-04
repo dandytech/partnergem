@@ -20,7 +20,7 @@ export default function CloudSolutions() {
 
         <div className="md:grid grid-cols-2 py-10 space-y-5 md:space-y-5 lg:px-5 gap-5 lg:pt-40">
           <div
-            className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl"
+            className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl lg:px-24 text-center"
             data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
@@ -41,7 +41,7 @@ export default function CloudSolutions() {
             </p>
           </div>
           <div
-            className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl"
+            className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl lg:px-24 text-center"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -61,7 +61,7 @@ export default function CloudSolutions() {
             </p>
           </div>
           <div
-            className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl"
+            className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl lg:px-24 text-center"
             data-aos="flip-right"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -81,7 +81,7 @@ export default function CloudSolutions() {
             </p>
           </div>
           <div
-            className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl mb-5"
+            className="flex flex-col items-center gap-5 boder shadow-2xl bg-[#EAF0F3] px-5 py-7 rounded-xl mb-5 lg:px-24 text-center"
             data-aos="fade-left"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"

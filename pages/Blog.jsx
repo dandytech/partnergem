@@ -91,7 +91,11 @@ export default function Blog() {
                 } ${isLastItem ? "mb-20" : ""}`}
               >
                 <div>
-                  <img src={blog.pic} alt="blog" className="w-full h-full py-5" />
+                  <img
+                    src={blog.pic}
+                    alt="blog"
+                    className="w-full h-full py-5"
+                  />
                 </div>
                 <div className="lg:w-[40%] py-5">
                   <p

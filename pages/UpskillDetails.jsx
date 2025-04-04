@@ -145,7 +145,7 @@ export default function UpskillDetails() {
 
           <div className="lg:w-[50%] p-3">
             <ReactPlayer
-              url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              url="https://res.cloudinary.com/dic7regoe/video/upload/v1743761411/george/Unlocking_Large_Language_Models_for_Business_Success_free_hdjhki.mp4"
               light={
                 <span className="w-full lg:h-auto h-full">
                   {" "}

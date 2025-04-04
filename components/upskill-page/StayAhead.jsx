@@ -2,6 +2,7 @@ import React from "react";
 import flower from "/assets/images/flower.png";
 import { motion } from "framer-motion";
 import Button from "../Button";
+import { HashLink } from "react-router-hash-link";
 
 export default function BannerSection() {
   const zoomAnimation = {
@@ -39,7 +40,9 @@ export default function BannerSection() {
           </p>
           <p className="mt-5 lg:w-[45%] font-Marcellus-SC font-[400] text-[20px]">
             {" "}
-            <Button>View Courses</Button>
+            <Button>
+              <HashLink to="/upskilling#learn">View Courses</HashLink>
+            </Button>
           </p>
         </div>
         <motion.div
