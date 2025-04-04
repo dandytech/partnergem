@@ -101,11 +101,9 @@ export default function Learn() {
                 </div>
                 <div>
                   {" "}
-                  <NavLink to="/upskill-details">
+                  <NavLink to="/coming-soon">
                     <span className="font-[400] font-Marcellus-SC lg:text-[20px] md:text-[18px] text-[14px] md:px-5 px-3 cursor-pointer">
-                      <NavLink to="/upskill-details font-[400] font-Marcellus-SC lg:text-[24px] md:text-[20px] tex-[18px]">
-                        Coming Soon
-                      </NavLink>
+                      Coming Soon
                     </span>
                   </NavLink>
                 </div>
@@ -141,7 +139,7 @@ export default function Learn() {
                 </div>
 
                 <div className=" md:w-full w-[50%] lg:w-fit md:px-10 lg:px-0  m-auto mt-3">
-                  <NavLink to="/upskill-details">
+                  <NavLink to="/coming-soon">
                     <span className="font-[400] font-Marcellus-SC lg:text-[20px] md:text-[18px] text-[14px] md:px-5 px-3 cursor-pointer">
                       Coming Soon
                     </span>
