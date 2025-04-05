@@ -95,14 +95,24 @@ export default function Learn() {
                 {course.title}
               </div>
 
-              <div className="flex justify-between items-center md:px-10 px-5 lg:gap-5">
-                <div className="font-Marcellus font-[400] lg:text-[20px] text-[16px] md:text-[18px]">
+              <div className="flex justify-between items-center md:px-10 px-3 lg:gap-5 gap-3">
+                <div className="font-Marcellus font-[400] lg:text-[20px] text-[16px] md:text-[18px] flex items-center justify-center  w-[40%]">
                   {course.author}
                 </div>
-                <div>
+                <div className="w-40">
+                  {" "}
+                  {index === 3 ? (
+                    <Button>
+                      <NavLink to="/upskill-details">View More</NavLink>
+                    </Button>
+                  ) : (
+                    ""
+                  )}
+                </div>
+                <div className="font-Marcellus font-[400] lg:text-[20px] text-[16px] md:text-[18px] flex items-center justify-center  w-[30%]">
                   {" "}
                   <NavLink to="/coming-soon">
-                    <span className="font-[400] font-Marcellus-SC lg:text-[20px] md:text-[18px] text-[14px] md:px-5 px-3 cursor-pointer">
+                    <span className="font-[400] flex items-center justify-center font-Marcellus-SC lg:text-[20px] md:text-[18px] text-[14px] md:px-5 px-3 cursor-pointer">
                       Coming Soon
                     </span>
                   </NavLink>

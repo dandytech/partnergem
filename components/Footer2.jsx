@@ -35,13 +35,13 @@ export default function Footer2() {
         </div>
 
         <div className=" px-3 md:px-5 py-5 lg:mt-20 mt-10">
-          <p className="font-[700] lg:text-[20px] text-white text-[14px]">
+          {/* <p className="font-[700] lg:text-[20px] text-white text-[14px]">
             Privacy Policy
-          </p>
+          </p> */}
 
-          <p className="font-[700] lg:text-[20px] text-[14px] text-white py-5">
+          {/* <p className="font-[700] lg:text-[20px] text-[14px] text-white py-5">
             Terms of Service
-          </p>
+          </p> */}
           <p className="lg:flex justify-between text-white gap-10 font-[700] md:text-[20px] lg:text-[48px] space-y-5 lg:space-y-0 text-[14px]">
             <div className="lg:text-[20px] text-[14px]">
               © PARTNERGEM {new Date().getFullYear()} ALL RIGHTS RESERVED
